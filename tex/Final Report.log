@@ -1,12 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.4.16)  23 APR 2019 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.8)  23 APR 2019 19:28
 entering extended mode
 **"./Final Report.tex"
 ("Final Report.tex"
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\repor
+t.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size1
+0.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,28 +28,35 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 ) (graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\k
+eyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
+raphics.sty"
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\t
+rig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
+fg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-d
+ef\pdftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -53,7 +64,8 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\floa
+t.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count89
 \float@exts=\toks15
@@ -76,7 +88,8 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
+p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
 \scratchdimen=\dimen105
@@ -89,15 +102,19 @@ LaTeX Font Info:    ... okay on input line 5.
 \MPnumerator=\count94
 \makeMPintoPDFobject=\count95
 \everyMPtoPDFconversion=\toks18
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+)
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -105,22 +122,28 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\e
+pstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\g
+rfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\k
+voptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -133,17 +156,17 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
-(parts/title.tex <images/muklogo.png, id=1, 239.2137pt x 55.1661pt>
-File: images/muklogo.png Graphic file (type png)
+) (parts/title.tex
+<images/muklogo2.png, id=1, 59.2614pt x 46.2528pt>
+File: images/muklogo2.png Graphic file (type png)
+ <use images/muklogo2.png>
+Package pdftex.def Info: images/muklogo2.png used on input line 4.
+(pdftex.def)             Requested size: 59.26123pt x 46.25269pt.
 
-<use images/muklogo.png>
-Package pdftex.def Info: images/muklogo.png used on input line 4.
-(pdftex.def)             Requested size: 239.2131pt x 55.16595pt.
- [1
+[1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/muklogo.png>]) (
-parts/declaration.tex
+{C:/Users/TheManHimself/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./i
+mages/muklogo2.png>] [2]) (parts/declaration.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -258,7 +281,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--14
 
 ] [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscm
+r.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -266,8 +291,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-)
-(parts/literature.tex
+) (parts/literature.tex
 Underfull \hbox (badness 10000) in paragraph at lines 35--1
 
  []
@@ -517,7 +541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<images/simple_system.png, id=79, 271.76532pt x 407.27156pt>
+<images/simple_system.png, id=83, 271.76532pt x 407.27156pt>
 File: images/simple_system.png Graphic file (type png)
 
 <use images/simple_system.png>
@@ -549,9 +573,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
-Missing character: There is no â in font cmbx10!
-Missing character: There is no € in font cmbx10!
-Missing character: There is no ¢ in font cmbx10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -562,11 +583,8 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
  [15]
-<images/class.jpg, id=91, 1112.155pt x 879.285pt>
+<images/class.jpg, id=95, 1112.155pt x 879.285pt>
 File: images/class.jpg Graphic file (type jpg)
  <use images/class.jpg>
 Package pdftex.def Info: images/class.jpg used on input line 64.
@@ -580,7 +598,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [16 <./images/class.jpg>]
-<images/Usecase.jpg, id=95, 761.84625pt x 492.84125pt>
+<images/Usecase.jpg, id=99, 761.84625pt x 492.84125pt>
 File: images/Usecase.jpg Graphic file (type jpg)
 
 <use images/Usecase.jpg>
@@ -592,7 +610,7 @@ Overfull \hbox (35.9222pt too wide) in paragraph at lines 73--74
  []
 
 [17 <./images/Usecase.jpg>]
-<images/context.jpg, id=99, 593.21625pt x 442.65375pt>
+<images/context.jpg, id=103, 593.21625pt x 442.65375pt>
 File: images/context.jpg Graphic file (type jpg)
 
 <use images/context.jpg>
@@ -717,20 +735,23 @@ Missing character: There is no ¦ in font cmti10!
 ]) ("Final Report.aux") ) 
 Here is how much of TeX's memory you used:
  1649 strings out of 493323
- 23333 string characters out of 3139069
- 85540 words of memory out of 3000000
+ 24744 string characters out of 3126544
+ 86540 words of memory out of 3000000
  5150 multiletter control sequences out of 15000+200000
  6716 words of font info for 24 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,25p,1039b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Final Report.pdf" (31 pages, 374592 bytes).
+<C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/TheManHimself/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Th
+eManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TheManHimself/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Final Report.pdf" (32 pages, 352239 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
