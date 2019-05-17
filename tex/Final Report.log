@@ -1,0 +1,764 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.4.16)  17 MAY 2019 14:13
+entering extended mode
+**"./Final Report.tex"
+("Final Report.tex"
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count89
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+) ("Final Report.aux")
+\openout1 = `"Final Report.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count90
+\scratchdimen=\dimen105
+\scratchbox=\box28
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count93
+\MPscratchDim=\dimen106
+\MPnumerator=\count94
+\makeMPintoPDFobject=\count95
+\everyMPtoPDFconversion=\toks18
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+(parts/title.tex <images/muklogo.png, id=1, 239.2137pt x 55.1661pt>
+File: images/muklogo.png Graphic file (type png)
+
+<use images/muklogo.png>
+Package pdftex.def Info: images/muklogo.png used on input line 4.
+(pdftex.def)             Requested size: 239.2131pt x 55.16595pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/muklogo.png>]) (
+parts/declaration.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+
+Overfull \hbox (1.05145pt too wide) in paragraph at lines 8--8
+[]\OT1/cmr/m/n/10 No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--22
+
+ []
+
+
+Overfull \hbox (44.43304pt too wide) in paragraph at lines 2--22
+[] 
+ []
+
+[1
+
+]) (parts/approval.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+[2
+
+]) (parts/dedication.tex [3
+
+]) (parts/acknowledgement.tex [4
+
+])
+(parts/abstract.tex) [5
+
+] ("Final Report.toc" [6
+
+])
+\tf@toc=\write3
+\openout3 = `"Final Report.toc"'.
+
+ [7] ("Final Report.lof")
+\tf@lof=\write4
+\openout4 = `"Final Report.lof"'.
+
+
+[8
+
+] ("Final Report.lot")
+\tf@lot=\write5
+\openout5 = `"Final Report.lot"'.
+
+ [9
+
+] (parts/introduction.tex
+Chapter 1.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+[1
+
+] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+)
+(parts/literature.tex
+Underfull \hbox (badness 10000) in paragraph at lines 35--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--1
+
+ []
+
+[3] [4]
+Chapter 2.
+
+Overfull \hbox (4.0562pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 Recording and ver-i-fy-ing can-di-dates' cre-den-tials can be c
+ostly and time-consuming
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]\OT1/cmr/m/n/10 Web URL -
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 15--15
+[]\OT1/cmr/bx/n/10 Reliable: \OT1/cmr/m/n/10 stu-dents are
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+LaTeX Warning: Citation `art4' on page 5 undefined on input line 17.
+
+
+Overfull \hbox (104.33856pt too wide) in paragraph at lines 10--22
+[][] 
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+LaTeX Warning: Citation `art5' on page 6 undefined on input line 43.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--45
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+LaTeX Warning: Citation `art6' on page 6 undefined on input line 51.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+[7]) (parts/methodology.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+[8
+
+]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Overfull \hbox (77.33858pt too wide) in paragraph at lines 41--67
+[][] 
+ []
+
+[9]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+[10]
+Overfull \hbox (2.56921pt too wide) in paragraph at lines 82--83
+[]\OT1/cmr/bx/n/10 Functional mod-el-ing:\OT1/cmr/m/n/10 This shows the pro-ces
+ses that are per-formed within
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+[11]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+
+LaTeX Warning: Citation `art6' on page 12 undefined on input line 106.
+
+) (parts/SAD.tex [12]
+Chapter 4.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+<images/simple_system.png, id=79, 271.76532pt x 407.27156pt>
+File: images/simple_system.png Graphic file (type png)
+
+<use images/simple_system.png>
+Package pdftex.def Info: images/simple_system.png used on input line 11.
+(pdftex.def)             Requested size: 190.23442pt x 285.08813pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13
+
+]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[14 <./images/simple_system.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [15]
+<images/class.jpg, id=91, 1112.155pt x 879.285pt>
+File: images/class.jpg Graphic file (type jpg)
+ <use images/class.jpg>
+Package pdftex.def Info: images/class.jpg used on input line 64.
+(pdftex.def)             Requested size: 444.85413pt x 351.70778pt.
+
+Overfull \hbox (99.85413pt too wide) in paragraph at lines 64--65
+[][] 
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[16 <./images/class.jpg>]
+<images/Usecase.jpg, id=95, 761.84625pt x 492.84125pt>
+File: images/Usecase.jpg Graphic file (type jpg)
+
+<use images/Usecase.jpg>
+Package pdftex.def Info: images/Usecase.jpg used on input line 73.
+(pdftex.def)             Requested size: 380.9222pt x 246.42001pt.
+
+Overfull \hbox (35.9222pt too wide) in paragraph at lines 73--74
+[][] 
+ []
+
+[17 <./images/Usecase.jpg>]
+<images/context.jpg, id=99, 593.21625pt x 442.65375pt>
+File: images/context.jpg Graphic file (type jpg)
+
+<use images/context.jpg>
+Package pdftex.def Info: images/context.jpg used on input line 82.
+(pdftex.def)             Requested size: 415.24854pt x 309.8555pt.
+
+Overfull \hbox (70.24854pt too wide) in paragraph at lines 82--83
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Overfull \hbox (4.69493pt too wide) in paragraph at lines 89--90
+[]\OT1/cmr/m/n/10 One needs to have the Meta-Mask browser ex-ten-sion in-stalle
+d on their browsers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+[18 <./images/context.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+[19]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+) (parts/Implementation.tex [20]
+Chapter 5.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+[21
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+<images/metamasklogin.png, id=113, 281.25075pt x 462.528pt>
+File: images/metamasklogin.png Graphic file (type png)
+
+<use images/metamasklogin.png>
+Package pdftex.def Info: images/metamasklogin.png used on input line 21.
+(pdftex.def)             Requested size: 168.75174pt x 277.51894pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+) (parts/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 26--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--1
+
+ []
+
+[22 <./images/metamasklogin.png>] [23]
+Chapter 6.
+) (parts/appendices.tex [24
+
+]
+Chapter 7.
+) (parts/references.tex [25
+
+]) [26
+
+] ("Final Report.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1659 strings out of 493323
+ 23602 string characters out of 3139069
+ 85519 words of memory out of 3000000
+ 5150 multiletter control sequences out of 15000+200000
+ 6716 words of font info for 24 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,10n,25p,1039b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Final Report.pdf" (36 pages, 423548 bytes).
+PDF statistics:
+ 147 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
