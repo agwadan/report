@@ -7,53 +7,53 @@
 \contentsline {subsection}{\numberline {1.3.3}Significance}{3}
 \contentsline {chapter}{\numberline {2}Literature Review}{5}
 \contentsline {section}{\numberline {2.1}Background}{5}
-\contentsline {subsubsection}{A review of the proposed system}{5}
-\contentsline {subsubsection}{Contributions}{6}
-\contentsline {subsubsection}{Weaknesses and gaps}{6}
-\contentsline {chapter}{\numberline {3}Methodology}{8}
-\contentsline {section}{\numberline {3.1}Introduction}{8}
-\contentsline {section}{\numberline {3.2}Data Collection}{8}
-\contentsline {subsection}{\numberline {3.2.1}Interviews}{8}
-\contentsline {subsection}{\numberline {3.2.2}Observation}{9}
-\contentsline {subsection}{\numberline {3.2.3}Document Review}{9}
-\contentsline {section}{\numberline {3.3}Tools}{9}
-\contentsline {section}{\numberline {3.4}Data Analysis}{10}
-\contentsline {section}{\numberline {3.5}System Design and Implementation}{10}
-\contentsline {subsection}{\numberline {3.5.1}System Design}{10}
-\contentsline {subsection}{\numberline {3.5.2}System Implementation}{11}
-\contentsline {section}{\numberline {3.6}Testing and Validation}{11}
-\contentsline {subsection}{\numberline {3.6.1}System Testing}{11}
-\contentsline {subsection}{\numberline {3.6.2}Validation}{12}
-\contentsline {section}{\numberline {3.7}Conclusion}{12}
-\contentsline {chapter}{\numberline {4}System Analysis and Design}{13}
-\contentsline {section}{\numberline {4.1}Overview of the system}{13}
-\contentsline {section}{\numberline {4.2}System Analysis}{14}
-\contentsline {subsection}{\numberline {4.2.1}Data Analysis}{14}
-\contentsline {subsection}{\numberline {4.2.2}User Requirements}{14}
-\contentsline {subsection}{\numberline {4.2.3}Functional Requirements}{15}
-\contentsline {subsection}{\numberline {4.2.4}Non Functional Requirements}{15}
-\contentsline {subsection}{\numberline {4.2.5}System Requirements}{15}
-\contentsline {section}{\numberline {4.3}System Design}{15}
-\contentsline {subsection}{\numberline {4.3.1}System Architecture}{15}
-\contentsline {subsubsection}{Class Diagram}{16}
-\contentsline {subsubsection}{Use Case Diagram}{17}
-\contentsline {subsubsection}{Context Diagram}{18}
-\contentsline {subsection}{\numberline {4.3.2}Design Constraints}{18}
-\contentsline {subsection}{\numberline {4.3.3}Design Methodology}{19}
-\contentsline {subsection}{\numberline {4.3.4}Graphical User Interface (GUI) Design}{19}
-\contentsline {subsubsection}{Inputs}{19}
-\contentsline {subsubsection}{Outputs}{20}
-\contentsline {subsection}{\numberline {4.3.5}External Interfaces}{20}
-\contentsline {subsubsection}{Hardware Interfaces}{20}
-\contentsline {subsubsection}{Software Interfaces}{20}
-\contentsline {subsubsection}{Communication Interfaces}{20}
-\contentsline {subsubsection}{User Interfaces}{20}
-\contentsline {chapter}{\numberline {5}System Implementation, Testing and Validation}{21}
-\contentsline {section}{\numberline {5.1}Introduction}{21}
-\contentsline {section}{\numberline {5.2}System Implementation}{21}
-\contentsline {subsection}{\numberline {5.2.1}Implementation tools}{21}
-\contentsline {subsection}{\numberline {5.2.2}User Interface Design}{21}
-\contentsline {subsubsection}{Account Creation}{22}
-\contentsline {subsubsection}{Results}{22}
-\contentsline {chapter}{\numberline {6}Recommendations, Conclusion and Future Works}{24}
-\contentsline {chapter}{\numberline {7}Appendices}{25}
+\contentsline {subsubsection}{Storing documents on the blockchain}{5}
+\contentsline {subsubsection}{Contributions}{7}
+\contentsline {subsubsection}{Weaknesses and gaps}{8}
+\contentsline {chapter}{\numberline {3}Methodology}{9}
+\contentsline {section}{\numberline {3.1}Introduction}{9}
+\contentsline {section}{\numberline {3.2}Data Collection}{9}
+\contentsline {subsection}{\numberline {3.2.1}Interviews}{9}
+\contentsline {subsection}{\numberline {3.2.2}Observation}{10}
+\contentsline {subsection}{\numberline {3.2.3}Document Review}{10}
+\contentsline {section}{\numberline {3.3}Tools}{10}
+\contentsline {section}{\numberline {3.4}Data Analysis}{11}
+\contentsline {section}{\numberline {3.5}System Design and Implementation}{11}
+\contentsline {subsection}{\numberline {3.5.1}System Design}{12}
+\contentsline {subsection}{\numberline {3.5.2}System Implementation}{12}
+\contentsline {section}{\numberline {3.6}Testing and Validation}{12}
+\contentsline {subsection}{\numberline {3.6.1}System Testing}{12}
+\contentsline {subsection}{\numberline {3.6.2}Validation}{13}
+\contentsline {section}{\numberline {3.7}Conclusion}{13}
+\contentsline {chapter}{\numberline {4}System Analysis and Design}{14}
+\contentsline {section}{\numberline {4.1}Overview of the system}{14}
+\contentsline {section}{\numberline {4.2}System Analysis}{15}
+\contentsline {subsection}{\numberline {4.2.1}Data Analysis}{15}
+\contentsline {subsection}{\numberline {4.2.2}User Requirements}{15}
+\contentsline {subsection}{\numberline {4.2.3}Functional Requirements}{16}
+\contentsline {subsection}{\numberline {4.2.4}Non Functional Requirements}{16}
+\contentsline {subsection}{\numberline {4.2.5}System Requirements}{16}
+\contentsline {section}{\numberline {4.3}System Design}{16}
+\contentsline {subsection}{\numberline {4.3.1}System Architecture}{16}
+\contentsline {subsubsection}{Class Diagram}{17}
+\contentsline {subsubsection}{Use Case Diagram}{18}
+\contentsline {subsubsection}{Context Diagram}{19}
+\contentsline {subsection}{\numberline {4.3.2}Design Constraints}{19}
+\contentsline {subsection}{\numberline {4.3.3}Design Methodology}{20}
+\contentsline {subsection}{\numberline {4.3.4}Graphical User Interface (GUI) Design}{20}
+\contentsline {subsubsection}{Inputs}{20}
+\contentsline {subsubsection}{Outputs}{21}
+\contentsline {subsection}{\numberline {4.3.5}External Interfaces}{21}
+\contentsline {subsubsection}{Hardware Interfaces}{21}
+\contentsline {subsubsection}{Software Interfaces}{21}
+\contentsline {subsubsection}{Communication Interfaces}{21}
+\contentsline {subsubsection}{User Interfaces}{21}
+\contentsline {chapter}{\numberline {5}System Implementation, Testing and Validation}{22}
+\contentsline {section}{\numberline {5.1}Introduction}{22}
+\contentsline {section}{\numberline {5.2}System Implementation}{22}
+\contentsline {subsection}{\numberline {5.2.1}Implementation tools}{22}
+\contentsline {subsection}{\numberline {5.2.2}User Interface Design}{22}
+\contentsline {subsubsection}{Account Creation}{23}
+\contentsline {subsubsection}{Results}{23}
+\contentsline {chapter}{\numberline {6}Recommendations, Conclusion and Future Works}{25}
+\contentsline {chapter}{\numberline {7}Appendices}{26}
