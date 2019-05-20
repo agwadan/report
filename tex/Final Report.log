@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.4.16)  17 MAY 2019 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.4.16)  17 MAY 2019 18:35
 entering extended mode
 **"./Final Report.tex"
 ("Final Report.tex"
@@ -134,16 +134,16 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-(parts/title.tex <images/muklogo.png, id=1, 239.2137pt x 55.1661pt>
-File: images/muklogo.png Graphic file (type png)
+(parts/title.tex <images/muklogo2.png, id=1, 59.2614pt x 46.2528pt>
+File: images/muklogo2.png Graphic file (type png)
 
-<use images/muklogo.png>
-Package pdftex.def Info: images/muklogo.png used on input line 4.
-(pdftex.def)             Requested size: 239.2131pt x 55.16595pt.
+<use images/muklogo2.png>
+Package pdftex.def Info: images/muklogo2.png used on input line 4.
+(pdftex.def)             Requested size: 59.26123pt x 46.25269pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/muklogo.png>]) (
-parts/declaration.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/muklogo2.png>]) 
+(parts/declaration.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -166,7 +166,30 @@ Overfull \hbox (44.43304pt too wide) in paragraph at lines 2--22
 [1
 
 ]) (parts/approval.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
+! Undefined control sequence.
+<recently read> \tab 
+                     
+l.17 \tab
+         -------------------------------------------------------------------...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \tab 
+                     
+l.19 \tab
+         -------------------------------------------------------------------...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--20
 
  []
 
@@ -174,10 +197,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
 ]) (parts/dedication.tex [3
 
-]) (parts/acknowledgement.tex [4
+]) (parts/acknowledgement.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
-])
-(parts/abstract.tex) [5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+[4
+
+]) (parts/abstract.tex) [5
 
 ] ("Final Report.toc" [6
 
@@ -188,7 +220,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
  [7] ("Final Report.lof")
 \tf@lof=\write4
 \openout4 = `"Final Report.lof"'.
-
 
 [8
 
@@ -210,96 +241,119 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
  []
 
 [1
 
-] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+
+ []
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 )
 (parts/literature.tex
-Underfull \hbox (badness 10000) in paragraph at lines 35--1
+Underfull \hbox (badness 10000) in paragraph at lines 40--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--1
+Underfull \hbox (badness 10000) in paragraph at lines 40--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--1
+Underfull \hbox (badness 10000) in paragraph at lines 40--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--1
+Underfull \hbox (badness 10000) in paragraph at lines 40--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--1
+Underfull \hbox (badness 10000) in paragraph at lines 40--1
 
  []
 
 [3] [4]
 Chapter 2.
-
-Overfull \hbox (4.0562pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/10 Recording and ver-i-fy-ing can-di-dates' cre-den-tials can be c
-ostly and time-consuming
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
@@ -308,55 +362,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]\OT1/cmr/m/n/10 Web URL -
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 15--15
-[]\OT1/cmr/bx/n/10 Reliable: \OT1/cmr/m/n/10 stu-dents are
- []
-
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-
-LaTeX Warning: Citation `art4' on page 5 undefined on input line 17.
-
-
-Overfull \hbox (104.33856pt too wide) in paragraph at lines 10--22
-[][] 
- []
-
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
@@ -373,54 +400,48 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-LaTeX Warning: Citation `art5' on page 6 undefined on input line 43.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 29--33
 
  []
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-LaTeX Warning: Citation `art6' on page 6 undefined on input line 51.
-
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
@@ -516,10 +537,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--91
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-
-LaTeX Warning: Citation `art6' on page 12 undefined on input line 106.
-
 ) (parts/SAD.tex [12]
 Chapter 4.
 Missing character: There is no â in font cmr10!
@@ -530,7 +547,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<images/simple_system.png, id=79, 271.76532pt x 407.27156pt>
+<images/simple_system.png, id=80, 271.76532pt x 407.27156pt>
 File: images/simple_system.png Graphic file (type png)
 
 <use images/simple_system.png>
@@ -573,7 +590,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [15]
-<images/class.jpg, id=91, 1112.155pt x 879.285pt>
+<images/class.jpg, id=92, 1112.155pt x 879.285pt>
 File: images/class.jpg Graphic file (type jpg)
  <use images/class.jpg>
 Package pdftex.def Info: images/class.jpg used on input line 64.
@@ -587,7 +604,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [16 <./images/class.jpg>]
-<images/Usecase.jpg, id=95, 761.84625pt x 492.84125pt>
+<images/Usecase.jpg, id=96, 761.84625pt x 492.84125pt>
 File: images/Usecase.jpg Graphic file (type jpg)
 
 <use images/Usecase.jpg>
@@ -599,7 +616,7 @@ Overfull \hbox (35.9222pt too wide) in paragraph at lines 73--74
  []
 
 [17 <./images/Usecase.jpg>]
-<images/context.jpg, id=99, 593.21625pt x 442.65375pt>
+<images/context.jpg, id=100, 593.21625pt x 442.65375pt>
 File: images/context.jpg Graphic file (type jpg)
 
 <use images/context.jpg>
@@ -709,7 +726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-<images/metamasklogin.png, id=113, 281.25075pt x 462.528pt>
+<images/metamasklogin.png, id=114, 281.25075pt x 462.528pt>
 File: images/metamasklogin.png Graphic file (type png)
 
 <use images/metamasklogin.png>
@@ -736,29 +753,59 @@ Chapter 6.
 Chapter 7.
 ) (parts/references.tex [25
 
-]) [26
+]
+Underfull \hbox (badness 1701) in paragraph at lines 7--12
+\OT1/cmr/m/n/10 Available: https://www.recordskeeper.co/verify-academic-certifi
+cations/
+ []
 
-] ("Final Report.aux")
 
-LaTeX Warning: There were undefined references.
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 Available: https://www.cnbc.com/2016/05/09/schools-are-recordin
+g-
+ []
 
- ) 
+
+Underfull \hbox (badness 1590) in paragraph at lines 25--28
+\OT1/cmr/m/n/10 Available: https://oeb.global/oeb-insights/10-ways-blockchain-c
+ould-be-
+ []
+
+Missing character: There is no â in font cmti10!
+Missing character: There is no € in font cmti10!
+Missing character: There is no ¦ in font cmti10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+\OT1/cmr/m/n/10 Available: https://docs.google.com/document/d/1eJhi8pN2b1Nc29sU
+-
+ []
+
+Missing character: There is no â in font cmti10!
+Missing character: There is no € in font cmti10!
+Missing character: There is no ¦ in font cmti10!
+Missing character: There is no â in font cmti10!
+Missing character: There is no € in font cmti10!
+Missing character: There is no ¦ in font cmti10!
+[26
+
+]) [27] ("Final Report.aux") ) 
 Here is how much of TeX's memory you used:
- 1659 strings out of 493323
- 23602 string characters out of 3139069
- 85519 words of memory out of 3000000
- 5150 multiletter control sequences out of 15000+200000
+ 1665 strings out of 493323
+ 23642 string characters out of 3139069
+ 86544 words of memory out of 3000000
+ 5156 multiletter control sequences out of 15000+200000
  6716 words of font info for 24 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,25p,1039b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Final Report.pdf" (36 pages, 423548 bytes).
+ 39i,10n,25p,836b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Final Report.pdf" (37 pages, 405244 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
