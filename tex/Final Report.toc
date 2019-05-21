@@ -13,16 +13,16 @@
 \contentsline {chapter}{\numberline {3}Methodology}{9}
 \contentsline {section}{\numberline {3.1}Introduction}{9}
 \contentsline {section}{\numberline {3.2}Data Collection}{9}
-\contentsline {subsection}{\numberline {3.2.1}Interviews}{9}
-\contentsline {subsection}{\numberline {3.2.2}Observation}{10}
-\contentsline {subsection}{\numberline {3.2.3}Document Review}{10}
-\contentsline {section}{\numberline {3.3}Tools}{10}
-\contentsline {section}{\numberline {3.4}Data Analysis}{11}
-\contentsline {section}{\numberline {3.5}System Design and Implementation}{11}
+\contentsline {subsection}{\numberline {3.2.1}Interviews}{10}
+\contentsline {subsection}{\numberline {3.2.2}System Review}{10}
+\contentsline {subsection}{\numberline {3.2.3}Document Review}{11}
+\contentsline {section}{\numberline {3.3}Tools}{11}
+\contentsline {section}{\numberline {3.4}Data Analysis}{12}
+\contentsline {section}{\numberline {3.5}System Design and Implementation}{12}
 \contentsline {subsection}{\numberline {3.5.1}System Design}{12}
 \contentsline {subsection}{\numberline {3.5.2}System Implementation}{12}
-\contentsline {section}{\numberline {3.6}Testing and Validation}{12}
-\contentsline {subsection}{\numberline {3.6.1}System Testing}{12}
+\contentsline {section}{\numberline {3.6}Testing and Validation}{13}
+\contentsline {subsection}{\numberline {3.6.1}System Testing}{13}
 \contentsline {subsection}{\numberline {3.6.2}Validation}{13}
 \contentsline {section}{\numberline {3.7}Conclusion}{13}
 \contentsline {chapter}{\numberline {4}System Analysis and Design}{14}
