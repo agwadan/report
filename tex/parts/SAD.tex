@@ -1,11 +1,10 @@
-
 \chapter{System Analysis and Design}
 This chapter describes the study, analysis and design of the system. It highlights the identified requirements and Architectural design of the system.
 
 \section{Overview of the system}
-The system designed in this project is aimed at having students’ results stored and managed on a blockchain network. The management of the results on a blockchain network ensures more security compared to the traditional centralized systems. \\~\\
-The system uses Ethereum which is a platform that allows creation of blockchain networks. For this project, Ganache is used as the local blockchain network on a user computer. The user gains access to the network using browser extension known as MetaMask. Each transaction that involves adding something to the blockchain network costs a given amount of ether which is a currency used to transact on the Ethereum network.
-
+The system designed in this project is aimed at having students’ transcripts stored and shared on a blockchain network. The storage of transcripts on a blockchain network ensures more security in addition to their storage as hard copy documents.
+To emphasize security, the transcripts are first hashed into data of fixed size and then stored on a blockchain. The system uses IPFS (InterPlanetary File System)\cite{art15} to produce a hash code for a transcript. The resultant hash code is then stored on the Ethereum blockchain.\\
+In order to simulate the blockchain locally, this system uses Ganache which runs a local instance of the Ethereum blockchain on a user computer. To gain access to the network, the user needs a browser extension known as MetaMask. MetaMask is a bridge that allows users to visit the distributed web through their browsers. It allows one to run Ethereum dApps\cite{art15} right in one's browser. Addition of each transcript to the blockchain costs a certain amount of ether\cite{art16}, the currency for the Ethereum blockchain.
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.7]{images/simple_system.png}
@@ -15,32 +14,33 @@ The system uses Ethereum which is a platform that allows creation of blockchain 
 \newpage
 \section{System Analysis}
 \subsection{Data Analysis}
-From the data retrieved during the research process, we found that the present system handling students’ records is prone to a number of errors and weaknesses.\\~\\
-The current system handling students’ results at Makerere University does not have a limit to the number of times a student can do a course as opposed to the actual policy by the University where a student is meant to sit for exams in a course not more than three times.\\~\\
-Another discovery from the data received was that the present-day system handling students’ results at Makerere University can accept an input of a percentage figure greater than 100\%.
+From the data retrieved during the research process, we found that the present system handling students’ records is prone to a number of errors and weaknesses.\\\\
+The current system handling students’ results at Makerere University does not have a limit to the number of times a student can do a course as opposed to the actual policy by the University where a student is meant to sit for exams in a course not more than three times.\\\\
+Another discovery from the data received was that the present-day system handling students’ results at Makerere University can accept an input of a percentage figure greater than 100\%.\\\\
+Another important note is that currently, students' transcripts exist only in hard copy and can only be picked and verified at the University.
 
 \subsection{User Requirements}
-Below are the user requirements for the blockchain results handler.
-\begin{itemize}
-\item Allow an administrative assistant enter students’ results.
-\item Allow students to access their results without being able to change them.
-\item Allow employers gain access to job applicants' past academic results. 
-\end{itemize}
+\begin{enumerate}
+\item[R.1] Allow an administrative assistant enter students’ results.
+\item[R.2] Allow students to access their results without being able to change them.
+\item[R.3] Provide for students to easily share their results information with employers.
+\item[R.4] Allow employers to easily verify students' results.
+\end{enumerate}
 
 \subsection{Functional Requirements}
-The functional requirements specify what the system is expected to do. These include the following;
-\begin{itemize}
-\item Provide verification of a user.
+These specify what the system is expected to do and they include the following:
+\begin{enumerate}
+\item[] Provide verification of a user.
 \item Ensure that the students’ results are not altered.
-\end{itemize}
-
+\end{enumerate}
 
 \subsection{Non Functional Requirements}
-The non-functional requirements describe the behavior of the system, and these include:
+These describe the behavior of the system and they include:
 \begin{itemize}
 \item The system must verify any addition to the blockchain.
 \item The system must notify the system administrator incase of any unauthorized transactions.
 \end{itemize}
+
 \subsection{System Requirements}
 The system is built with a foundation on the ethereum network which is a platform that enables building of blockhain based smart contracts. MetaMask is a browser extension required for the system to allow a user access the ethereum blockchain network. All these have to be accessed on a Personal Computer with a browser e.g. google chrome, mozilla firefox among others.
 
@@ -49,7 +49,6 @@ This section includes a detailed description of the system’s architecture, com
 
 \subsection{System Architecture}
 The system consists of the following major components:
-
 \begin{itemize}
 \item A blockchain network built on the Ethereum platform.
 \item A PC that is used to access the blockchain network.
@@ -60,11 +59,9 @@ The system consists of the following major components:
 This is a static structure diagram that describes the structure of a system by showing the system's classes for example the student, Academic registrar, among others. It also shows their attributes, operations (or methods), and the relationships among objects.
 
 \begin{figure}[!h]
-
 \includegraphics[scale=0.4]{images/class.jpg}
 \caption{Class diagram}
 \end{figure}
-
 
 \subsubsection{Use Case Diagram}
 This is a high level description of the different types of users of the system and how they interact with it. A use case diagram provides a simplified graphical representation of the system’s functionalities.
