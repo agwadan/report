@@ -21,26 +21,26 @@
 \contentsline {subsection}{\numberline {3.4.1}System Design}{11}
 \contentsline {subsection}{\numberline {3.4.2}System Implementation}{12}
 \contentsline {section}{\numberline {3.5}Testing and Validation}{12}
-\contentsline {subsection}{\numberline {3.5.1}System Testing}{12}
-\contentsline {subsection}{\numberline {3.5.2}Validation}{13}
+\contentsline {subsubsection}{Functional Testing}{12}
+\contentsline {subsubsection}{Non-Functional Testing}{13}
 \contentsline {section}{\numberline {3.6}Conclusion}{13}
 \contentsline {chapter}{\numberline {4}System Analysis and Design}{14}
 \contentsline {section}{\numberline {4.1}Overview of the system}{14}
 \contentsline {section}{\numberline {4.2}System Analysis}{15}
 \contentsline {subsection}{\numberline {4.2.1}Data Analysis}{15}
-\contentsline {subsection}{\numberline {4.2.2}User Requirements}{15}
+\contentsline {subsection}{\numberline {4.2.2}User Requirements}{16}
 \contentsline {subsection}{\numberline {4.2.3}Functional Requirements}{16}
 \contentsline {subsection}{\numberline {4.2.4}Non Functional Requirements}{16}
 \contentsline {subsection}{\numberline {4.2.5}System Requirements}{16}
 \contentsline {section}{\numberline {4.3}System Design}{16}
-\contentsline {subsection}{\numberline {4.3.1}System Architecture}{16}
+\contentsline {subsection}{\numberline {4.3.1}System Architecture}{17}
 \contentsline {subsubsection}{Class Diagram}{17}
-\contentsline {subsubsection}{Use Case Diagram}{18}
-\contentsline {subsubsection}{Context Diagram}{19}
-\contentsline {subsection}{\numberline {4.3.2}Design Constraints}{19}
+\contentsline {subsubsection}{Use Case Diagram}{17}
+\contentsline {subsubsection}{Context Diagram}{18}
+\contentsline {subsection}{\numberline {4.3.2}Design Constraints}{18}
 \contentsline {subsection}{\numberline {4.3.3}Design Methodology}{20}
 \contentsline {subsection}{\numberline {4.3.4}Graphical User Interface (GUI) Design}{20}
-\contentsline {subsubsection}{Inputs}{20}
+\contentsline {subsubsection}{Inputs}{21}
 \contentsline {subsubsection}{Outputs}{21}
 \contentsline {subsection}{\numberline {4.3.5}External Interfaces}{21}
 \contentsline {subsubsection}{Hardware Interfaces}{21}

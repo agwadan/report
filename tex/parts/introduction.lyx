@@ -1,0 +1,323 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /media/agwa/DISK E/Class/3rd Year/Computer Project/Report/report/tex/parts/
+\textclass report
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Section
+Background
+\end_layout
+
+\begin_layout Standard
+There have been efforts to streamline delivery of authentic information about students who attend higher institutions of learning.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ In a bid to achieve this, Makerere University, like any other institutions, uses a conventional online system to manage students' results. Upon admission to the university, an account is opened for each student through which they can can view their progressive academic records which are uploaded by a centralized administration that comprises of the school registrars. For security purposes, users are required to enter credentials i.e Student Number / Registration Number and Password. Through this, only authentic users can access the system. The use of this online system has eased students' access to their records as opposed to the formally crowded notice boards where results were pinned. For purposes of security, the system runs on the university's intranet network.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Upon completion of their study at the University, students' are awarded with an inventory of the courses taken and grades earned throughout their course of study. This comes in the form of an academic transcript. However, since the issued transcript is in hard copy, this comes with a number of complications. For example security risks, duplication and forgery, ease of access and distribution.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Recently one of the breakthroughs in technology has been the management of records belonging to a group of people using a decentralized system. One may wonder how this is possible. Well, this is done using a technology known as blockchain.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ A blockchain is a growing list of records which are linked using cryptography
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art1"
+
+\end_inset
+
+. Blockchain can not only be used to store records, but also be used for their secure manipulation. By design, a blockchain is resistant to modification of the data stored on it. It is "an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way".
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ In the context of Makerere University for example, blockchain technology would be a good alternative to storing syudents' transcripts. In addition to issuing transcripts in hard copy form, using blockchain guarantees one some extra features that would better the management and storage of students' records. For example 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art2"
+
+\end_inset
+
+ :
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Transparency â Both parties who are interested in viewing academic credentials can see them on the blockchain. This ensures that only people with ownership rights can make decisions about who has access to particular information.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Immutability â Blockchains are the most secure source for storing the information right now. They rely on the integrity of the network to ensure the authenticity of the stored information. Thus, academic certificates stored on the blockchain are immutable.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Disintermediation - Using the blockchain to store and share academic credentials helps us bypass the need for a central controlling authority that manages and keeps records. This makes the overall process of storing credentials more trustworthy as there are no middlemen involved.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Collaboration â Once the information becomes available on the blockchain, it is much easier to ascribe ownership, and therefore safer to share the information without the fear of this information being compromised.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ In this project, we intend to build a blockchain application that will aid the management of students' records at Makerere University.
+\end_layout
+
+\begin_layout Section
+Problem Statement
+\end_layout
+
+\begin_layout Standard
+In an article published by the Daily Monitor in March 2017, 87 per cent of graduates cannot find jobs. 
+\begin_inset Quotes eld
+\end_inset
+
+According to National Planning Authority (NPA) statistics released from [6 â 12, March 2017], 700,000 people join the job market every year regardless of qualification but only 90,000 get something to do."
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art3"
+
+\end_inset
+
+ One of the major causes of this is the problem of fake academic papers. It is a well-known secret that while a considerable number of Ugandans tender in doctored documents to get employment, a huge number of people with genuine papers remain unemployed.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Currently, it is pretty easy to obtain a forged transcript. For as little as $100, one can acquire a fake transcript that required another person four years of study. Unfortunately for employers, it is not so obvious to tell the difference between authentic and counterfeit.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ This project aims at tackling the above-mentioned shortcoming with a focus on the results testimonial issued to a student of the university. Enforcing means of verification of academic documents is our proposed approach to reducing these rates of unemployment, especially for university graduates.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Main Objective
+\end_layout
+
+\begin_layout Standard
+The overall aim of this project is to improve authenticity of documents by implementing block chain technology. 
+\end_layout
+
+\begin_layout Subsection
+Specific Objectives
+\end_layout
+
+\begin_layout Standard
+The specific objectives of the study were: 
+\end_layout
+
+\begin_layout Itemize
+To ensure safety of students' records. Unlike paper-based records that can easily get lost, once put in block chain, the students' grades will be safe. 
+\end_layout
+
+\begin_layout Itemize
+To create an open, distributed catalog that makes it easy for students to share their transcripts with whom they please. 
+\end_layout
+
+\begin_layout Itemize
+To provide a medium of verification that can be used by employers in telling a true transcript from a counterfeit. 
+\end_layout
+
+\begin_layout Subsection
+Scope
+\end_layout
+
+\begin_layout Standard
+The challenge mentioned in the problem statement above is broad and cuts across a number of institutions of higher learning in the nation and even beyond borders. For this project however, the focus will be on Makerere University Main Campus located in Kampala, Uganda. Furthermore, the project will focus on issuance of the academic transcript to a student of the university among other documents.
+\end_layout
+
+\begin_layout Subsection
+Significance
+\end_layout
+
+\begin_layout Standard
+In the year 2010, the African Development Bankâs (AfDBâs) Partnership Forum had put national unemployment figures at 83 per cent. The World Bank had at the same time put youth unemployment in Kampala alone at 32.2 per cent and unemployment among university graduates in Kampala at 36 per cent.
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art4"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ To many university students, this is a problem that may cause a lot of stress and worry among the majority. However, every problem has in it the seeds of its own solution.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ No one would like to eat half baked bread leave alone the raw dough. The employment industry is flooded with so many employees that have barely attained the knowledge to perform the tasks they are given simply because they were able to forge documents and convince their employer that theyâre capable. 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ This project is aimed at closing such loop holes that allow people to get away with forged academic documents.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ For employers, block chain technology will avoid them having to spend valuable time checking candidates' educational credentials by having to call universities or to pay a third party to do the job. 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ A country's economy becomes more productive as the proportion of educated workers increases since educated workers can more efficiently carry out tasks that require literacy and critical thinking. Uganda has an adult literacy rate of about 75%
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art5"
+
+\end_inset
+
+. By providing them with the deserved access to employment and to participate in building the society, the economy will be much more productive and the country's GDP will be boosted.
+\end_layout
+
+\end_body
+\end_document

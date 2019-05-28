@@ -1,0 +1,419 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /media/agwa/DISK E/Class/3rd Year/Computer Project/Report/report/tex/parts/
+\textclass report
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Methodology
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+As stated earlier in the document, Unauthentic academic documents cause a great deal of trouble in the employment industry and a country's economy. The need for a more secure way of dispatching academic results is the major drive to the operation of this project with a focus on Makerere University. 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ This chapter contains a description of the techniques, methods and tools used during the research process. Also contained in this chapter, is a description of the implementation, testing and validation of the system.
+\end_layout
+
+\begin_layout Section
+Data Collection
+\end_layout
+
+\begin_layout Standard
+Data collection for this project was approached using both qualitative and quantitative methods. The quantitative methods helped in evaluating the impact of the current results storage methods on the students, employees and other stakeholders involved. On the qualitative end of the card, we were able to obtain opinions on the present day methods of storing students' results. More importantly, learning stakeholders' opinions on a possibility of storing results in a decentralised manner was a major drive to use qualitative methods. The data collection process in this project was done through interviews with the various stakeholders of the system for example the students and administrative assistants at different colleges of the university. Document reviews were also done in the process of data collection.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ From the vast number of stakeholders, sampling was done using the systematic sampling technique. This is a type of probability sampling where every element of the sample space has an equal chance of being picked.
+\end_layout
+
+\begin_layout Subsection
+Interviews
+\end_layout
+
+\begin_layout Standard
+Interviews were carried out with administrative assistants at various colleges of the university. These are the university employees in charge of feeding students results into a system where they're managed. This made them a key source of information. Information sought included; 
+\end_layout
+
+\begin_layout Itemize
+Strengths of the current results storage system. 
+\end_layout
+
+\begin_layout Itemize
+Weaknesses of the current results storage system. 
+\end_layout
+
+\begin_layout Itemize
+Opinion on a possibility of a decentralised storage system for the students records. 
+\end_layout
+
+\begin_layout Standard
+The conversations held during the interviews were in person in the various offices of the different administrative assistants. The conversations with each respondent took approximately thirty minutes excluding the amount of time spent trying to make appointments.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Relevance of Interviews
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+Feedback was quickly obtained from the respondents. 
+\end_layout
+
+\begin_layout Itemize
+There was room to get more information than what was intended in the interview script for example, we learnt of a results management and storage system that was used at the College of Computing and Information Sciences for about four years but was never adopted by the university. 
+\end_layout
+
+\begin_layout Itemize
+Since the conversations happened in person, there was room to read the non verbal cues from the respondents. This creates room to assess whatever the respondent is saying from their body language which would rather not be possible with other methods 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "17"
+
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Subsection
+System Review
+\end_layout
+
+\begin_layout Standard
+As students of the university, we had access to the current results storage system with privileges granted to students. We carried out a review of the system accessed through the url ar.mak.ac.ug. This method was a source of qualitative information as it's major purpose was to learn the strengths and weaknesses of the system. some of the attributes looked out for were security, availability among others.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Relevance of a System Review
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+We were able to obtain first hand information about from the system itself. 
+\end_layout
+
+\begin_layout Itemize
+Access to the source of information (The students' portal) is much easier as it is available for us to access. 
+\end_layout
+
+\begin_layout Subsection
+Document Review
+\end_layout
+
+\begin_layout Standard
+Through literature review, we collected information from already existing related research. This research was done on already existing blockchain applications similar to the one this project is focused on for example Blocksign 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art14"
+
+\end_inset
+
+, Siacoin
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art15"
+
+\end_inset
+
+, Storj
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art16"
+
+\end_inset
+
+ and Cryptyk
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art18"
+
+\end_inset
+
+. This information was gathered from online sources like the internet, journals and other relevant materials on the problem domain from libraries around the university.
+\end_layout
+
+\begin_layout Section
+Data Analysis
+\end_layout
+
+\begin_layout Standard
+A great deal of the data collected was qualitative. This therefore called for qualitative data analysis techniques. The major method used is the Inferential data analysis method. This approach studies the relationship between various variables for example the relationship between a student and an employer.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ The collected data was analyzed to be able to attain consistency and reliability for proper modeling and implementation of the system. The data was studied to identify key user and system requirements. These were classified under functional and non-functional requirements.
+\end_layout
+
+\begin_layout Section
+System Design and Analysis
+\end_layout
+
+\begin_layout Standard
+In order to achieve efficient project management, we adapted the agile software development methodology where the requirements and solutions evolve together throughout the development process. This approach significantly contributed to the success of the project because we were able to anticipate the need for flexibility in time.
+\end_layout
+
+\begin_layout Subsection
+System Design
+\end_layout
+
+\begin_layout Standard
+The system was designed using use case and data flow diagrams. The generated use case diagram visually express how the different users like students interact with the storage system. 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ In the development of the use cases, we used the object-oriented analysis development method to design the system. In this phase, we determined the systemâs requirements and identified the classes and the relationships among them. There are three major analysis techniques used together during the object oriented analysis namely; 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Object modeling:
+\series default
+ This involves developing the static structure of the software system in terms of objects. Here we identified the various classes like students, administrative assistants among others. Identified at this stage also include attributes of the various classes, associations and operations performed on them. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dynamic modeling:
+\series default
+ The major activity at this stage involved identifying relationships between the various classes. Some classes extended others that are abstract. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Functional modeling:
+\series default
+ Here, we identified how the data within an object changes as the processes performed within it are executed. Identified also were the changes made on the data as it moves from one stage to another. 
+\end_layout
+
+\begin_layout Subsection
+System Implementation
+\end_layout
+
+\begin_layout Standard
+The buiding of the system started after having the design complete. this was done by writing code. The tasks were further divided among the different individuals working on the project. Each developer followed a predefined set of guidelines for collaboratin during the development process. 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+JavaScript and Solidity which is a language used to build smart contracts on the Ethereum platform, are some of the languages used. Another important software in this development is ganache. Ganache is a software that allows one to simulate a blockchain locally on a computer. Ganache has a number of features including displaying the accounts on the local blockchain, the transactions made, the blocks in the network, among others.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Finally, we use MetaMask to run the application on a browser. MetaMask is a google chrome extension that allows one run a blockchain application on google chrome browser.
+\end_layout
+
+\begin_layout Section
+Testing and Validation
+\end_layout
+
+\begin_layout Subsection
+System Testing
+\end_layout
+
+\begin_layout Standard
+This phase involves the assessment of the system to verify if it works properly and also verify if it satisfies the specified requirements. The system has been availed to potential users to test it. This enables the team get feedback from the potential users of the system. There are two major approaches to testing of the system used ie; 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+White box testing:
+\series default
+ In this technique, we critically studied the source code to find out which unit or chunk of code is behaving inappropriately. This helped in optimizing the code and removing extra lines of code which bring in hidden defects or adding more lines of code to make the application work even better.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Black box testing:
+\series default
+ in this technique, a tester interacts with the systemâs user interface by providing inputs and examining outputs without knowing how and where the inputs are worked upon. 
+\end_layout
+
+\begin_layout Subsection
+Validation
+\end_layout
+
+\begin_layout Standard
+Systems validation is the process of checking that a software system meets specification and it fulfills its intended purpose. To ensure data quality, errors should be detected during input, prior to processing and storage and this will be achieved through validating input transactions and input data. If the system conforms to the specified user requirements, the first release will finally be deployed. With time, the system will be upgraded with more improvements and innovative features; this is because systems without innovative features lose their usability in the long run.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+To realize all this, we had to put into play our project management skills and this called for the need to track our progress using daily Stand Up meetings. This is recorded and shared on google sheets 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art12"
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

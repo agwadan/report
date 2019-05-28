@@ -1,0 +1,755 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /media/agwa/DISK E/Class/3rd Year/Computer Project/Report/report/tex/parts/
+\textclass report
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art1"
+
+\end_inset
+
+Margaret Rouse, TechTarget(2018, September). 
+\emph on
+Cryptography
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://searchsecurity.techtarget.com/definition/cryptography
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art2"
+
+\end_inset
+
+ Records Keeper(2018). 
+\emph on
+Verify Academic Certifications
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://www.recordskeeper.co/verify-academic-certifications/
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art3"
+
+\end_inset
+
+ 
+\emph on
+The scourge of fake academic papers
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://www.monitor.co.ug/News/Education/jobs-dark-world-fake-academic-documents/688336-4784694-bvjkc7z/index.html
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art4"
+
+\end_inset
+
+ 
+\emph on
+High youth unemployment persists despite entrepreneurship training
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://www.monitor.co.ug/SpecialReports/High-youth-unemployment-persists-entrepreneurship-training/688342-4644926-563r8fz/index.html
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art5"
+
+\end_inset
+
+ 
+\emph on
+Uganda Literacy Rate
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://knoema.com/atlas/Uganda/topics/Education/Literacy/Adult-literacy-rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art6"
+
+\end_inset
+
+ 
+\emph on
+Blocksign
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://blocksign.com/
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art7"
+
+\end_inset
+
+ 
+\emph on
+Siacoin
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://sia.tech/
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art8"
+
+\end_inset
+
+ 
+\emph on
+What is Storj? - Beginnerâs Guide
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://coincentral.com/storj-beginners-guide/
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art9"
+
+\end_inset
+
+ 
+\emph on
+Cryptyk
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://www.cryptyk.io/
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art10"
+
+\end_inset
+
+Luke Graham, CNBC News (2016, May). 
+\emph on
+Schools are using bitcoin technology to track students:
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://www.cnbc.com/2016/05/09/schools-are-recording-students-results-on-the-blockchain.html
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art11"
+
+\end_inset
+
+Donald Clark, OEB Global (2016, September. 12). 
+\emph on
+10 ways Blockchain could be used in education
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://oeb.global/oeb-insights/10-ways-blockchain-could-be-used-in-education
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art12"
+
+\end_inset
+
+ 
+\emph on
+Google Sheetsâ¦ Daily Stand-Up Meeting Notes
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://docs.google.com/document/d/1eJhi8pN2b1Nc29sU-jxtM-PKZ6UtxqFijfrP1fr14F0/edit?usp=sharing
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art13"
+
+\end_inset
+
+ 
+\emph on
+Ethereum Projectâ¦ Blockchain platform to run smart contracts as they are coded to be
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://www.ethereum.org
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art14"
+
+\end_inset
+
+ 
+\emph on
+Ganacheâ¦ A one click blockchain
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://truffleframework.com/ganache
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art15"
+
+\end_inset
+
+ 
+\emph on
+Decentralized application
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://en.wikipedia.org/wiki/Decentralized_application
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art16"
+
+\end_inset
+
+ 
+\emph on
+What is ether?
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://bitcoinmagazine.com/guides/what-ether/
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "art17"
+
+\end_inset
+
+ 
+\emph on
+Nonverbal Communication
+\emph default
+[article],
+\begin_inset Newline newline
+\end_inset
+
+ Available: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+https://www.helpguide.org/articles/relationships-communication/nonverbal-communication.htm/
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
