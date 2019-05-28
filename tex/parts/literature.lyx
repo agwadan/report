@@ -1,0 +1,425 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /media/agwa/DISK E/Class/3rd Year/Computer Project/Report/report/tex/parts/
+\textclass report
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Literature Review
+\end_layout
+
+\begin_layout Section
+Background
+\end_layout
+
+\begin_layout Standard
+Storing and verifying students' academic transcripts can be costly and time-consuming for academia, students and businesses alike. Through this project, we look to turn to blockchain technology for a solution. But first of all, let us start with a review of the blockchain technology and its current applications.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Bitcoin which is a peer to peer electronic cash system was revealed to the world in 2008 by Satoshi Nakamoto whose identity is still unknown and was offered to the open source community in 2009. The decentralised nature of the technology used by bitcoin came to be known as blockchain.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename tex/images/howitworks.jpg
+	scale 30
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+How blockchain works
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bitcoin uses cryptographic proof instead of the trust-in-the-third-party mechanism for two willing parties to execute an online transaction over the Internet.
+\begin_inset Newline newline
+\end_inset
+
+ Each transaction is protected through a digital signature, is sent to the âpublic keyâ of the receiver, and is digitally signed using the âprivate keyâ of the sender. In order to spend money, the owner of the cryptocurrency needs to prove his ownership of the âprivate keyâ.
+\begin_inset Newline newline
+\end_inset
+
+ The entity receiving the digital currency then verifies the digital signature, which implies ownership of the corresponding âprivate keyâ, by using the âpublic keyâ of the sender on the respective transaction.
+\begin_inset Newline newline
+\end_inset
+
+ Each transaction is broadcasted to every node in the Bitcoin network and is then recorded in a public ledger after verification. Every single transaction needs to be verified for validity before it is recorded in the public ledger.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Storing documents on the blockchain
+\end_layout
+
+\begin_layout Standard
+Up until 2014, blockchain did not seem to have much potential independent of bitcoin. In 2014, some people realised other potential uses of blockchain in disciplines like supply chain, healthcare, insurance, education among others.
+\begin_inset Newline newline
+\end_inset
+
+ Over the past several years, there has been a keen interest in how we can use blockchains for storing documents.
+\begin_inset Newline newline
+\end_inset
+
+ There are two main ways to store a document on the blockchain. One option is to store the entire document itself on-chain. Alternatively, one can store a hash of it on the blockchain. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Storing Entire Document
+\series default
+ - Storing a whole document on-chain is possible with certain blockchains.
+\begin_inset Newline newline
+\end_inset
+
+ However, we found out that it is rarely a good idea because of something called access latency. Fully decentralized public blockchains have thousands of nodes and this means it takes long for network users to upload and download files, such as documents. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Storing a Hash
+\series default
+ - This method involves storing a documentâs hash on-chain while keeping the whole document elsewhere. The document could be stored in a centralized database or on a distributed file storage system. The document can be put through a secure hash algorithm like SHA-256 and then the hash is stored in a block. We find this to be the most efficient method as it saves a huge amount of space and cost. Additionally, using the hash, one is able to tell if someone tampers with the original document. 
+\end_layout
+
+\begin_layout Standard
+There are few projects that focus on documents alone right now. Most are built around decentralized file storage, which includes documents.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ One project that is focused specifically on documents, particularly signed documents, is Blocksign
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art6"
+
+\end_inset
+
+. This uses the hash method. A user will sign the document and send it to Blocksign, where it is then hashed, and the hash is stored on the Bitcoin blockchain.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Other cryptocurrency projects designed for decentralized storage more generally include Siacoin, Storj and Cryptyk.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Siacoin
+\series default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art7"
+
+\end_inset
+
+ - uses their distributed network to store an encrypted version of one`s document. The Siacoin network is comprised of hosts who provide storage and clients who desire storage. Clients and hosts agree upon contracts detailing the commitments made by the storage providers. Sia`s own proof of work blockchain stores these contracts.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Storj
+\series default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art8"
+
+\end_inset
+
+ - runs atop the Ethereum blockchain. A hash of the document is stored within a hash table on-chain. Additionally, its distributed network also stores your document.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Cryptyk
+\series default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art9"
+
+\end_inset
+
+ - an enterprise-focused platform to store documents, uses a blockchain more distantly than all of the above . You do not store any documents or hashes on-chain. Instead, a distributed cloud system stores the documents. The platform only uses a blockchain to manage and referee document access and sharing.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Described below are not only some of the contributions, but also weaknesses and gaps that are associated with this technology. 
+\end_layout
+
+\begin_layout Subsubsection
+Contributions
+\end_layout
+
+\begin_layout Standard
+Because decentralized applications run on the block chain, they benefit from all of its properties, which include:-
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Immutability
+\series default
+ â A third party cannot make any changes to data. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Corruption & tamper proof
+\series default
+ â Apps are based on a network formed around the principle of consensus, making censorship impossible. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Secure
+\series default
+ â With no central point of failure and secured using cryptography, applications are well protected against hacking attacks and fraudulent activities. 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Zero downtime
+\series default
+ â Apps never go down and can never be switched off. 
+\end_layout
+
+\begin_layout Standard
+For an example of the contribution of this technology, we look at the University of Nicosia in Cyprus, which is using the technology to record students' achievements. According to George Papageorgiou, a digital currency lecturer at the university, the technology is proving popular. He had this to say to CNBC News: 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape italic
+"We've only encountered enthusiasm in the practical uses so far and students are glad to be able to verify, with their new knowledge and the blockchain, that their digital certificate is genuine and that it cannot be recreated.
+\begin_inset Newline newline
+\end_inset
+
+ We believe this instills confidence in both students and potential employers that (they) can check on their own, whether a presented certificate is real or not"
+\shape default
+.
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art10"
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ This is proof that the implementation is already reaping fruits in some institutions around the world.
+\end_layout
+
+\begin_layout Subsubsection
+Weaknesses and gaps
+\end_layout
+
+\begin_layout Standard
+However, despite all the possibilities offered by blockchain, there have been various challenges associated with it.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ We observe challenges in both the perspective of the end-user, and we, the researchers. From the userâs view, according to Donald Clark 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "art11"
+
+\end_inset
+
+, an EdTech entrepreneur and advisor of EdTech companies, some public sector organizations just donât like the innovation and stick to their institutional silos. This is basically because the technology has not been around for a long time which makes many potential users have doubts about its possibilities. To overcome this, we intend to train the parties in these institutions on how to use this technology and also show them the advantages.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ From our research perspective, the major challenge is that the subject of study is of a relatively early stage. Blockchain technologies are under active development globally, and there may be recent advances that impact our findings.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ In conclusion, it is important to note that blockchain is a technology that clearly has applications in the world of learning at individual, institutional and international levels. It is relevant in all sorts of contexts: schools, colleges, universities among others.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ One thing we know for sure is that students have their eyes open and are looking for alternatives. Perhaps, like Bitcoin, the blockchain revolution will ultimately come from left of field. 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
