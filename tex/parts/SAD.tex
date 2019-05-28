@@ -1,13 +1,13 @@
 \chapter{System Analysis and Design}
-This chapter describes the study, analysis and design of the system. It highlights the identified requirements and Architectural design of the system.
+This chapter describes the study, analysis and design of the system. It highlights the identified requirements and architectural design of the system.
 
 \section{Overview of the system}
 The system designed in this project is aimed at having students’ transcripts stored and shared on a blockchain network. The storage of transcripts on a blockchain network ensures more security in addition to their storage as hard copy documents.
 To emphasize security, the transcripts are first hashed into data of fixed size and then stored on a blockchain. The system uses IPFS (InterPlanetary File System)\cite{art15} to produce a hash code for a transcript. The resultant hash code is then stored on the Ethereum blockchain.\\
 In order to simulate the blockchain locally, this system uses Ganache which runs a local instance of the Ethereum blockchain on a user computer. To gain access to the network, the user needs a browser extension known as MetaMask. MetaMask is a bridge that allows users to visit the distributed web through their browsers. It allows one to run Ethereum dApps\cite{art15} right in one's browser. Addition of each transcript to the blockchain costs a certain amount of ether\cite{art16}, the currency for the Ethereum blockchain.
-\begin{figure}[!h]
+\begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{images/simple_system.png}
+\includegraphics[scale=0.5]{images/simple_system.png}
 \caption{Simple system Architecture}
 \end{figure}
 
@@ -19,65 +19,73 @@ The current system handling students’ results at Makerere University does not 
 Another discovery from the data received was that the present-day system handling students’ results at Makerere University can accept an input of a percentage figure greater than 100\%.\\\\
 Another important note is that currently, students' transcripts exist only in hard copy and can only be picked and verified at the University.
 
-\subsection{User Requirements}
-\begin{enumerate}
-\item[R.1] Allow an administrative assistant enter students’ results.
-\item[R.2] Allow students to access their results without being able to change them.
-\item[R.3] Provide for students to easily share their results information with employers.
-\item[R.4] Allow employers to easily verify students' results.
-\end{enumerate}
-
-\subsection{Functional Requirements}
-These specify what the system is expected to do and they include the following:
-\begin{enumerate}
-\item[] Provide verification of a user.
-\item Ensure that the students’ results are not altered.
-\end{enumerate}
-
-\subsection{Non Functional Requirements}
-These describe the behavior of the system and they include:
-\begin{itemize}
-\item The system must verify any addition to the blockchain.
-\item The system must notify the system administrator incase of any unauthorized transactions.
-\end{itemize}
-
 \subsection{System Requirements}
-The system is built with a foundation on the ethereum network which is a platform that enables building of blockhain based smart contracts. MetaMask is a browser extension required for the system to allow a user access the ethereum blockchain network. All these have to be accessed on a Personal Computer with a browser e.g. google chrome, mozilla firefox among others.
+The system uses IPFS and the Ethereum blockchain as its main foundation. MetaMask is a browser extension required for user access to the Ethereum blockchain  via a browser e.g. Google Chrome, Mozilla Firefox among others. Below are the user requirements, functional and non-functional requirements.
+
+\subsubsection{User Requirements}
+\begin{enumerate}
+\item[U.1] Allow an administrative assistant enter students’ results.
+\item[U.2] Allow students to access their results without being able to change them.
+\item[U.3] Provide for students to easily share their results information with employers.
+\item[U.4] Allow employers to easily verify students' results.
+\end{enumerate}
+
+\subsubsection{Functional Requirements}
+\begin{enumerate}
+\item[F.1] Provide verification of a user.
+\item[F.2] Ensure that the students’ results are not altered.
+\end{enumerate}
+
+\subsubsection{Non Functional Requirements}
+\begin{itemize}
+\item[N.1] The system must verify any addition to the blockchain.
+\item[N.2] The system must notify the system administrator incase of any unauthorized transactions.
+\end{itemize}
 
 \section{System Design}
-This section includes a detailed description of the system’s architecture, components, modules, interfaces, and data for a system to satisfy the specified requirements. It describes the design and development process of the application using a use case diagram to explain how the actors will interact with the system and data flow diagrams to show how data will move in and out of the system.  
-
-\subsection{System Architecture}
-The system consists of the following major components:
+The system is dependant on two technologies i.e IPFS and Ethereum. This section includes an overview of how each of these technologies work.
 \begin{itemize}
-\item A blockchain network built on the Ethereum platform.
-\item A PC that is used to access the blockchain network.
-\item A user interface that allows a user to access the services of the system like adding to the chain, viewing results, among others.
+\item\textbf{IPFS}\\
+IPFS is an open-source, peer-to-peer distributed hypermedia protocol that aims to function as a ubiquitous file system for all computing devices. It is a complex and highly ambitious project with some serious and profound implications on the future development and structure of the Internet as we know it.\\
+\begin{figure}[H]
+  \caption{IPFS decentralized architecture.}
+  \centering
+  \includegraphics[width=0.5\textwidth]{images/IPFS.png}
+\end{figure}
+The links between the nodes in IPFS take the form of cryptographic hashes, and this is possible because of its Merkle DAG\cite{art18} (Directed Acyclic Graphs) data architecture. Each file and all blocks within it are given a unique identifier, which is a cryptographic hash. Duplicates are removed across the network and version history is tracked for every file.\\\\
+\item\textbf{Ethereum blockchain}\\
+Ethereum's architecture allows for an application to sign transactions offline and relay them to a public node. In this project, since we are running a local instance of the blockchain using Ganache, we have set up a web3 provider engine in our configuraion to transparently sign transactions offline, using Metamask, and send them to an IPFS node.
+\begin{figure}[H]
+  \caption{Ethereum blockchain architecture with offline Signing and public nodes.}
+  \centering
+  \includegraphics[scale=0.5, width=0.5\textwidth]{images/OfflineBlockchainarch.png}
+\end{figure}
 \end{itemize}
 
-\subsubsection{Class Diagram}
-This is a static structure diagram that describes the structure of a system by showing the system's classes for example the student, Academic registrar, among others. It also shows their attributes, operations (or methods), and the relationships among objects.
+\subsection{System Architecture}
+The structure of the system is composed of the following major components:
+\begin{itemize}
+\item A blockchain network built on the Ethereum platform and a local implementation of it running in Ganache.
+\item The IPFS distributed network for storage and peer-to-peer sharing of records.
+\item A students' results system that combines:
+\begin{enumerate}
+\item Creation and Manipulation of results locally
+\item Storage, Access and distribution of results remotely
+\end{enumerate}
+\item A storage server for student information and transcripts
+\end{itemize}
+Below is a class diagram describing the structure of the system and a use case diagram depicting the interactions among the system's elements.
 
-\begin{figure}[!h]
+\subsubsection{Class Diagram}
+\begin{figure}[H]
 \includegraphics[scale=0.4]{images/class.jpg}
 \caption{Class diagram}
 \end{figure}
 
 \subsubsection{Use Case Diagram}
-This is a high level description of the different types of users of the system and how they interact with it. A use case diagram provides a simplified graphical representation of the system’s functionalities.
-
-\begin{figure}[!h]
-\includegraphics[scale=0.5]{images/Usecase.jpg}
+\begin{figure}[H]
+\includegraphics[scale=0.5]{images/UseCaseDiagram.png}
 \caption{Use Case diagram}
-\end{figure}
-
-\newpage
-\subsubsection{Context Diagram}
-This gives an overview of the entire system. In this diagram, there is only one process that represent the entire system. The purpose of this diagram is to display the expected inputs and outputs from the system to and from various entities. Shown in the diagram below is how various entities like students interact with the system.
-
-\begin{figure}[!h]
-\includegraphics[scale=0.7]{images/context.jpg}
-\caption{Context diagram}
 \end{figure}
 
 \subsection{Design Constraints}
