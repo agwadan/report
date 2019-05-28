@@ -89,25 +89,26 @@ Below is a class diagram describing the structure of the system and a use case d
 \end{figure}
 
 \subsection{Design Constraints}
-Accessing the blockchain network requires reliable internet connectivity.\\
-
-One needs to have the MetaMask browser extension installed on their browsers in order to access the blockchain network.\\
-
-Writing to the blockchain costs gas. Gas in the context of Ethereum is a unit and a measurement for the computing power that is needed to execute certain operations in the Ethereum Virtual Machine (EVM).\\
-
-The developers were limited to only ten virtual accounts to simulate actual accounts during development.\\
-
-
+The system for storing students' results on the blockchain is dependent on a number of factors, and these constrain its design in one way or another. Here below are some example constraints: 
+\begin{itemize}
+\item \textbf{\textit{Internet Connectivity}}\\
+Since the system runs online, this thereby implies the need for users to have access to the internet.
+\item \textbf{\textit{Browser Support}}\\
+Any browser can be used to access the internet. However, accessing the Ethereum blockchain to use a dApp via a browser needs that particular browser to support the MetaMask extension. Currently, Metamask extensions are only available for Chrome, Firefox, Opera and Brave browsers. This constrains the system to these particular browsers, leaving out users that may not have the mentioned browsers.
+\item \textbf{\textit{Payment for the blockchain (in Cryptocurrency)}}\\
+Writing to the blockchain costs gas. Gas in the context of Ethereum is a unit and a measurement for the computing power that is needed to execute certain operations in the Ethereum Virtual Machine (EVM). Use of the system would require an Ethereum wallet\cite{art19}.
+\item \textbf{\textit{Ganache limitation}}\\
+During simulation of the blockchain network locally and implementation of the system using Ganache, the developers were limited to only ten virtual accounts to simulate the entire network of actual accounts.
+\end{itemize}
 \textbf{Assumptions}\\
-Some assumptions were made during the design and development of the system which include;\\
-
-The end-user is willing to learn and adopt to the technology that may be new to him/her.\\
-
-Users always have good internet reception.\\
-
-Users are familiar with common internet browsers and file extensions for these browsers.\\
-
-Scalability of the system will not negatively affect the application’s speed and reliability.\\
+Some assumptions were made during the design and development of the system. They include the following:\\
+\begin{itemize}
+\item The end-user is willing to learn and adopt to the technology that may be new to him/her.
+\item Users have a reliable connection to the internet.
+\item Users are familiar with common internet browsers and file extensions for these browsers.
+\item The system uses QR codes for purposes of verification. Therefore, it is assumed that users are familiar with QR codes and have access to a QR code scanner.
+\item Scalability of the system will not negatively affect the application’s speed and reliability.
+\end{itemize}
 
 \subsection{Design Methodology}
 We used the Agile software development (ASD) methodology. This methodology involves adaptive planning, evolutionary development, early delivery, and continual improvement. It also encourages rapid and flexible response to change. We focused on keeping code simple and testing often. This helped us to minimize risks such as bugs, cost overruns and the changing requirements.
