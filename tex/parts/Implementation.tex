@@ -1,13 +1,12 @@
 \chapter{Presentation of Results}
 \section{Introduction}
-This chapter describes how the Students’ results handler was implemented. The implementation was driven by the desire to achieve the objectives set at the beginning of the project.
+The sections and subsections in this chapter describe the implementation, testing and results of the project. It starts by discussing how the web application to handle students' results was built. It then describes how The decentralised file storage element of the system was put up and how all these elements were integrated together.
 
 \section{System Implementation}
-This section contains an overview of the project implementation; it highlights the major components and the operation of the system as well as the different user interfaces and activities that allow users to interact with the system.
+This section and the subsections beneath it describe the Implementation and results of the project. Different elements of the system were built using different tools. The subsections below further describe how each element was built to get the complete system running from the web application that handles the students' results to the decentralised storage of transcripts and blockchain store for the hash values.
 
-\subsection{Implementation tools}
-This application has various faces that can be accessed by the student, the Administrative Assistant, the Academic registrar and a potential employer. Various tools are used to develop these for example, the truffle framework which provides an environment to write smart contracts in solidity and compile them. Other tools include Ganache\cite{art14} which is a blockchain network simulator on a local machine.\\~\\
-The front end of the application is developed in languages such as JavaScript, HTML and using the bootstrap framework as well.
+\subsection{Results System}
+The results system is an element of the system where results are initially entered and processed before they are finally stored on a decentralised network. This system is built to be accessed by students, administrative assistants, the academic registrar and the system administrator. All these have different levels of priviledges when accessing the system for example, a student is only able to view his results and not edit them. The first attempt to build this system was done entirely on a blockchain network using smart contracts. 
 
 \subsection{User Interface Design}
 The system can be accessed through a web application on a browser of choice. However, the browser should be able to support the MetaMask file extension. This is helpful in enabling the user access the blockchain network.
