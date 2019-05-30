@@ -97,7 +97,7 @@ Since the system runs online, this thereby implies the need for users to have ac
 Any browser can be used to access the internet. However, accessing the Ethereum blockchain to use a dApp via a browser needs that particular browser to support the MetaMask extension. Currently, Metamask extensions are only available for Chrome, Firefox, Opera and Brave browsers. This constrains the system to these particular browsers, leaving out users that may not have the mentioned browsers.
 \item \textbf{\textit{Payment for the blockchain (in Cryptocurrency)}}\\
 Writing to the blockchain costs gas. Gas in the context of Ethereum is a unit and a measurement for the computing power that is needed to execute certain operations in the Ethereum Virtual Machine (EVM). Use of the system would require an Ethereum wallet\cite{art19}.
-\item \textbf{\textit{Ganache limitation}}\\
+\item \textbf{\textit{The Ganache limitation}}\\
 During simulation of the blockchain network locally and implementation of the system using Ganache, the developers were limited to only ten virtual accounts to simulate the entire network of actual accounts.
 \end{itemize}
 \textbf{Assumptions}\\
@@ -117,25 +117,22 @@ We used the Agile software development (ASD) methodology. This methodology invol
 This section provides the detailed design of the system and subsystem inputs and outputs relative to the user.
 
 \subsubsection{Inputs}
-\textbf{Ethereum network password:} the users’ password is required to create an account on the Ethereum network.  If the user is logging in on a different device from a previous one that was used to access the network, they’ll have to enter the seed phrase generated for them by the platform. \\
-
-\textbf{Results:} When an administrative assistant logs into the system, he/she can enter the students’ results.
+\begin{itemize}
+\item \textbf{\textit{User Credentials for Authentication:}} - Access to the Resuslts system requires User Authentication depending on whether a user is an Administrator or Student. 
+\item \textbf{\textit{MetaMask Password:}} - In order for users to access the blockchain through their browser and via the Metamask, the extension requires a user password. Upon account creation on MetaMask, users are given a secret seed phrase. This seed phrase can be used for password recovery and for first time usage on a different device.
+\item \textbf{\textit{Results:}} - When an administrative assistant logs into the system, he/she can enter the students’ results.
+\end{itemize}
 
 \subsubsection{Outputs}
-\textbf{Testimonial:} before the results are forwarded to the blockchain, a student can access the system and view his/her progressive results.\\
-
-\textbf{Transcript:} On accessing the platform, a student can view his transcript which can be printed as a pdf. An employer who would like to view an applicant’s past results can also access the network and view the same transcript.\\
+\begin{itemize}
+\item \textbf{\textit{Testimonial:}} - This is progressively updated and available on the Results system. Before the results are forwarded to the blockchain, a student can access the system and view his/her progressive results.
+\item \textbf{\textit{Transcript:}} - Upon completion of study, a students can view their transcripts which can be downloaded as a pdf document for purposes of printing. This pdf is then digitized and encrypted before it is shared and stored on a global network. Students have access to their transcripts from anywhere and the will to share it with employers.
+\end{itemize}
 
 \subsection{External Interfaces}
-
 \subsubsection{Hardware Interfaces}
-To fully access the functionality of this system, a user is required to have Computer with an internet browser(like google chrome, mozilla firefox, among others) with the MetaMask browser extension installed. 
+The Results System needs access to a local server for storage of testimonials and transcripts locally. These could also be backed up on a cloud server, depending on the institution's particular system.\\\\
+To access the functionality of this system, a user is required to have a computer with internet connection and a browser that supports the MetaMask extension. These browsers include Google chrome, Mozilla Firefox, among others) with the MetaMask browser extension installed. 
 
 \subsubsection{Software Interfaces}
-The functionalities of the external interfaces were developed using web-based scripting langauages like PHP, JavaScript and the blockchain network built on the ethereum platform.
-
-\subsubsection{Communication Interfaces}
-The student details handled by the system are stored on an online sql database. The fully processed and verified transcript is stored on the blockchain built on the ethereum platform.
-
-\subsubsection{User Interfaces}
-Users navigate through the application using a windowed GUI. This involves clicking using a mouse, dragging and dropping among other manoeuvres possible with a windowed GUI.
+The functionalities of the external interfaces were developed using web-based scripting langauages like PHP, JavaScript and the smart contract for the Ethereum blockchain written in solidity.

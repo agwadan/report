@@ -1,0 +1,58 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Background}{1}
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}
+\contentsline {section}{\numberline {1.3}Main Objective}{3}
+\contentsline {subsection}{\numberline {1.3.1}Specific Objectives}{3}
+\contentsline {subsection}{\numberline {1.3.2}Scope}{3}
+\contentsline {subsection}{\numberline {1.3.3}Significance}{3}
+\contentsline {chapter}{\numberline {2}Literature Review}{5}
+\contentsline {section}{\numberline {2.1}Background}{5}
+\contentsline {subsubsection}{Storing documents on the blockchain}{5}
+\contentsline {subsubsection}{Contributions}{7}
+\contentsline {subsubsection}{Weaknesses and gaps}{8}
+\contentsline {chapter}{\numberline {3}Methodology}{9}
+\contentsline {section}{\numberline {3.1}Introduction}{9}
+\contentsline {section}{\numberline {3.2}Data Collection}{9}
+\contentsline {subsection}{\numberline {3.2.1}Interviews}{10}
+\contentsline {subsection}{\numberline {3.2.2}System Review}{10}
+\contentsline {subsection}{\numberline {3.2.3}Document Review}{11}
+\contentsline {section}{\numberline {3.3}Data Analysis}{11}
+\contentsline {section}{\numberline {3.4}System Design and Analysis}{11}
+\contentsline {subsection}{\numberline {3.4.1}System Design}{11}
+\contentsline {subsection}{\numberline {3.4.2}System Implementation}{12}
+\contentsline {section}{\numberline {3.5}Testing and Validation}{12}
+\contentsline {subsubsection}{Functional Testing}{12}
+\contentsline {subsubsection}{Non-Functional Testing}{13}
+\contentsline {section}{\numberline {3.6}Conclusion}{13}
+\contentsline {chapter}{\numberline {4}System Analysis and Design}{14}
+\contentsline {section}{\numberline {4.1}Overview of the system}{14}
+\contentsline {section}{\numberline {4.2}System Analysis}{15}
+\contentsline {subsection}{\numberline {4.2.1}Data Analysis}{15}
+\contentsline {subsection}{\numberline {4.2.2}System Requirements}{15}
+\contentsline {subsubsection}{User Requirements}{16}
+\contentsline {subsubsection}{Functional Requirements}{16}
+\contentsline {subsubsection}{Non Functional Requirements}{16}
+\contentsline {section}{\numberline {4.3}System Design}{16}
+\contentsline {subsection}{\numberline {4.3.1}System Architecture}{17}
+\contentsline {subsubsection}{Class Diagram}{19}
+\contentsline {subsubsection}{Use Case Diagram}{20}
+\contentsline {subsection}{\numberline {4.3.2}Design Constraints}{20}
+\contentsline {subsection}{\numberline {4.3.3}Design Methodology}{21}
+\contentsline {subsection}{\numberline {4.3.4}Graphical User Interface (GUI) Design}{21}
+\contentsline {subsubsection}{Inputs}{21}
+\contentsline {subsubsection}{Outputs}{22}
+\contentsline {subsection}{\numberline {4.3.5}External Interfaces}{22}
+\contentsline {subsubsection}{Hardware Interfaces}{22}
+\contentsline {subsubsection}{Software Interfaces}{22}
+\contentsline {chapter}{\numberline {5}Presentation of Results}{23}
+\contentsline {section}{\numberline {5.1}Introduction}{23}
+\contentsline {section}{\numberline {5.2}System Implementation}{23}
+\contentsline {subsection}{\numberline {5.2.1}Results System}{23}
+\contentsline {subsection}{\numberline {5.2.2}IPFS integration}{24}
+\contentsline {subsubsection}{Infura}{24}
+\contentsline {subsection}{\numberline {5.2.3}Ethereum blockchain}{24}
+\contentsline {subsection}{\numberline {5.2.4}User Interface Design}{25}
+\contentsline {subsubsection}{Account Creation}{25}
+\contentsline {subsubsection}{Results}{25}
+\contentsline {chapter}{\numberline {6}Recommendations, Conclusion and Future Works}{27}
+\contentsline {chapter}{\numberline {7}Appendices}{28}
