@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.5.22)  29 MAY 2019 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.5.22)  30 MAY 2019 19:22
 entering extended mode
 **"./Final Report.tex"
 ("Final Report.tex"
@@ -528,7 +528,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--50
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
@@ -537,10 +542,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
+[12]
 
-LaTeX Warning: Citation `18' on page 12 undefined on input line 68.
+LaTeX Warning: Citation `art21' on page 13 undefined on input line 68.
 
-[12]) (parts/SAD.tex [13]
+) (parts/SAD.tex [13]
 Chapter 4.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -679,6 +685,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 ) (parts/Implementation.tex [22]
 Chapter 5.
 
+LaTeX Warning: Citation `20' on page 23 undefined on input line 10.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
@@ -686,36 +695,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 [23
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
-
- []
-
-<images/metamasklogin.png, id=126, 281.25075pt x 462.528pt>
-File: images/metamasklogin.png Graphic file (type png)
-
-<use images/metamasklogin.png>
-Package pdftex.def Info: images/metamasklogin.png used on input line 21.
-(pdftex.def)             Requested size: 168.75174pt x 277.51894pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-) (parts/conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 26--1
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--1
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
 
  []
 
-[24 <./images/metamasklogin.png>] [25]
+
+Overfull \hbox (24.38951pt too wide) in paragraph at lines 13--27
+\OT1/cmr/m/n/10 DDDDDDDDDDDDDDDDDDDDDDform code snip-petWD-DDDDDDDDDDDDDD
+ []
+
+
+Overfull \hbox (45.72289pt too wide) in paragraph at lines 13--27
+\OT1/cmr/m/n/10 DDDDDDDDDDDDDDDDDDDDDDForm out-put-D-DDDDDDDDDDDDDDDDDDDDD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--27
+
+ []
+
+[24]) (parts/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
+
+ []
+
+[25] [26]
 Chapter 6.
-) (parts/appendices.tex [26
+) (parts/appendices.tex [27
 
 ]
 Chapter 7.
-) (parts/references.tex [27
+) (parts/references.tex [28
 
 ]
 Underfull \hbox (badness 5475) in paragraph at lines 12--14
@@ -756,7 +831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 ould-be-
  []
 
-[28
+[29
 
 ]
 Missing character: There is no â in font cmti10!
@@ -773,16 +848,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--70
 \OT1/cmr/m/n/10 Available: https://www.helpguide.org/articles/relationships-
  []
 
-) [29] ("Final Report.aux")
+) [30] ("Final Report.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1709 strings out of 493323
- 24329 string characters out of 3139069
- 85972 words of memory out of 3000000
- 5194 multiletter control sequences out of 15000+200000
+ 1706 strings out of 493323
+ 24211 string characters out of 3139069
+ 86976 words of memory out of 3000000
+ 5192 multiletter control sequences out of 15000+200000
  7075 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,25p,834b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -793,9 +868,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb>
-Output written on "Final Report.pdf" (39 pages, 1225978 bytes).
+Output written on "Final Report.pdf" (40 pages, 1184872 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
