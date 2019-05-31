@@ -1,16 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.8)  30 MAY 2019 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.5.22)  31 MAY 2019 14:20
 entering extended mode
 **"./Final Report.tex"
 ("Final Report.tex"
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\repor
-t.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size1
-0.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -28,35 +24,28 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 ) (graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\k
-eyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
-raphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\t
-rig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
-fg\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-d
-ef\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -64,8 +53,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\floa
-t.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count89
 \float@exts=\toks15
@@ -76,7 +64,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen105
 \TabPrevPos=\dimen106
-) ("Final Report.aux")
+)
+("Final Report.aux")
 \openout1 = `"Final Report.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -92,8 +81,7 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
-p-pdf.mkii"
+(C:\Users\Agwa\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
 \scratchdimen=\dimen107
@@ -106,19 +94,15 @@ p-pdf.mkii"
 \MPnumerator=\count94
 \makeMPintoPDFobject=\count95
 \everyMPtoPDFconversion=\toks18
-)
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\pdftexcmds.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\ifluatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -126,28 +110,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\e
-pstopdf-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\g
-rfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\kvdefinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\k
-voptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -160,17 +138,17 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) (parts/title.tex
-<images/muklogo2.png, id=1, 59.2614pt x 46.2528pt>
+)
+(parts/title.tex <images/muklogo2.png, id=1, 59.2614pt x 46.2528pt>
 File: images/muklogo2.png Graphic file (type png)
- <use images/muklogo2.png>
+
+<use images/muklogo2.png>
 Package pdftex.def Info: images/muklogo2.png used on input line 4.
 (pdftex.def)             Requested size: 59.26123pt x 46.25269pt.
+ [1
 
-[1
-
-{C:/Users/TheManHimself/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./i
-mages/muklogo2.png>]) (parts/declaration.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/muklogo2.png>]) 
+(parts/declaration.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -235,15 +213,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
 ] (parts/introduction.tex
 Chapter 1.
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
@@ -297,9 +275,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--15
 [1
 
 ]
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--25
 
@@ -322,23 +300,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--25
 
 [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
-
-("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscm
-r.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-) (parts/literature.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+)
+(parts/literature.tex
 Underfull \hbox (badness 10000) in paragraph at lines 40--1
 
  []
@@ -366,36 +343,36 @@ File: images/howitworks.jpg Graphic file (type jpg)
 <use images/howitworks.jpg>
 Package pdftex.def Info: images/howitworks.jpg used on input line 9.
 (pdftex.def)             Requested size: 297.5138pt x 218.01617pt.
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--16
 
@@ -417,9 +394,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [5
 
 ]
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--32
 
@@ -461,30 +438,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
  []
 
 [7]
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--52
 
@@ -542,9 +519,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
@@ -571,9 +548,9 @@ LaTeX Warning: Citation `art21' on page 13 undefined on input line 68.
 
 ) (parts/SAD.tex [13]
 Chapter 4.
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 <images/simple_system.png, id=84, 271.76532pt x 407.27156pt>
 File: images/simple_system.png Graphic file (type png)
 
@@ -587,15 +564,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [14
 
 ]
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
@@ -611,13 +588,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
  []
 
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 [15 <./images/simple_system.png>]
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 
 <images/IPFS.png, id=93, 245.41687pt x 214.55156pt>
 File: images/IPFS.png Graphic file (type png)
@@ -674,12 +651,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 [21]
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
@@ -694,151 +671,239 @@ ract for the Ethereum
 [22]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
-
- []
-
-
-Overfull \hbox (457.50163pt too wide) in paragraph at lines 12--18
-\OT1/cmr/m/n/10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
- []
-
-
 LaTeX Warning: Citation `20' on page 23 undefined on input line 10.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
 
  []
 
 [23
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
+] <images/form_snippet.png, id=126, 915.42pt x 430.60875pt>
+File: images/form_snippet.png Graphic file (type png)
+
+<use images/form_snippet.png>
+Package pdftex.def Info: images/form_snippet.png used on input line 16.
+(pdftex.def)             Requested size: 366.16151pt x 172.24043pt.
+
+Overfull \hbox (21.16151pt too wide) in paragraph at lines 16--17
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
 
-Overfull \hbox (24.38951pt too wide) in paragraph at lines 13--27
-\OT1/cmr/m/n/10 DDDDDDDDDDDDDDDDDDDDDDform code snip-petWD-DDDDDDDDDDDDDD
- []
-
-
-Overfull \hbox (45.72289pt too wide) in paragraph at lines 13--27
-\OT1/cmr/m/n/10 DDDDDDDDDDDDDDDDDDDDDDForm out-put-D-DDDDDDDDDDDDDDDDDDDDD
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
+<images/form_output.png, id=127, 434.22224pt x 241.50224pt>
+File: images/form_output.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
+<use images/form_output.png>
+Package pdftex.def Info: images/form_output.png used on input line 21.
+(pdftex.def)             Requested size: 347.37827pt x 193.20204pt.
 
+Overfull \hbox (2.37827pt too wide) in paragraph at lines 21--22
+[][] 
+ []
+
+[24 <./images/form_snippet.png>]
+<images/css_references.png, id=132, 581.7735pt x 70.46326pt>
+File: images/css_references.png Graphic file (type png)
+
+<use images/css_references.png>
+Package pdftex.def Info: images/css_references.png used on input line 28.
+(pdftex.def)             Requested size: 407.23868pt x 49.32393pt.
+
+Overfull \hbox (62.23868pt too wide) in paragraph at lines 28--29
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--27
-
- []
-
-[24]) (parts/conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 29--1
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--1
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--1
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--1
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
 
  []
 
-<images/metamasklogin.png, id=129, 281.25075pt x 462.528pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
+
+ []
+
+[25 <./images/form_output.png> <./images/css_references.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 50--56
+
+ []
+
+
+Overfull \hbox (457.50163pt too wide) in paragraph at lines 50--56
+\OT1/cmr/m/n/10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--56
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
+ []
+
+
+Overfull \hbox (549.7879pt too wide) in paragraph at lines 67--70
+\OT1/cmr/m/n/10 STILL WORK IN PROGRESS HERE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+) (parts/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 73--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--1
+
+ []
+
+[28]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+[29
+
+]) (parts/appendices.tex [30]
+Chapter 7.
+<images/vscode.png, id=154, 774.4935pt x 582.37575pt>
+File: images/vscode.png Graphic file (type png)
+ <use images/vscode.png>
+Package pdftex.def Info: images/vscode.png used on input line 5.
+(pdftex.def)             Requested size: 309.79192pt x 232.94617pt.
+
+<images/XAMPP_cp.png, id=155, 504.6855pt x 328.8285pt>
+File: images/XAMPP_cp.png Graphic file (type png)
+
+<use images/XAMPP_cp.png>
+Package pdftex.def Info: images/XAMPP_cp.png used on input line 10.
+(pdftex.def)             Requested size: 252.34213pt x 164.41385pt.
+ [31
+
+ <./images/vscode.png>]
+<images/dev_tools.png, id=160, 1156.32pt x 650.43pt>
+File: images/dev_tools.png Graphic file (type png)
+
+<use images/dev_tools.png>
+Package pdftex.def Info: images/dev_tools.png used on input line 15.
+(pdftex.def)             Requested size: 346.89868pt x 195.1305pt.
+
+Overfull \hbox (1.89868pt too wide) in paragraph at lines 15--16
+[][] 
+ []
+
+<images/metamasklogin.png, id=161, 281.25075pt x 462.528pt>
 File: images/metamasklogin.png Graphic file (type png)
 
 <use images/metamasklogin.png>
-Package pdftex.def Info: images/metamasklogin.png used on input line 41.
+Package pdftex.def Info: images/metamasklogin.png used on input line 21.
 (pdftex.def)             Requested size: 168.75174pt x 277.51894pt.
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-Missing character: There is no ÔøΩ in font cmr10!
-) (parts/conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 46--1
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--1
-
- []
-
-[25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 46--1
-
- []
-
-[25 <./images/metamasklogin.png>] [26]
-Chapter 6.
-) (parts/appendices.tex [27
-
-]
-Chapter 7.
-) (parts/references.tex [28
-
-]
+) (parts/references.tex [32 <./images/XAMPP_cp.png> <./images/dev_tools.png>] [
+33 <./images/metamasklogin.png>]
 Underfull \hbox (badness 5475) in paragraph at lines 12--14
 \OT1/cmr/m/n/10 Available: https://www.monitor.co.ug/News/Education/jobs-dark-w
 orld-
@@ -862,9 +927,9 @@ Overfull \hbox (21.58424pt too wide) in paragraph at lines 20--22
 eracy/Adult-
  []
 
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--42
 \OT1/cmr/m/n/10 Available: https://www.cnbc.com/2016/05/09/schools-are-recordin
@@ -877,33 +942,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 ould-be-
  []
 
-[29
+[34
 
 ]
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
-Missing character: There is no ÔøΩ in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ¶ in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ¶ in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ¶ in font cmti10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--70
 \OT1/cmr/m/n/10 Available: https://www.helpguide.org/articles/relationships-
  []
 
-) [30] ("Final Report.aux")
+) [35] ("Final Report.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1706 strings out of 493323
- 24211 string characters out of 3139069
+ 1741 strings out of 493323
+ 25045 string characters out of 3139069
  86976 words of memory out of 3000000
- 5192 multiletter control sequences out of 15000+200000
+ 5220 multiletter control sequences out of 15000+200000
  7075 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,25p,834b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -914,28 +979,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb>
-Output written on "Final Report.pdf" (40 pages, 1184872 bytes).
+Output written on "Final Report.pdf" (45 pages, 1687773 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 1709 strings out of 493323
- 25698 string characters out of 3126544
- 85972 words of memory out of 3000000
- 5194 multiletter control sequences out of 15000+200000
- 7075 words of font info for 25 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 39i,8n,25p,834b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/TheManHimself/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Th
-eManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TheManHimself/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Final Report.pdf" (40 pages, 1230737 bytes).
-PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
+ 203 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
