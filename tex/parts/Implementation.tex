@@ -1,3 +1,4 @@
+% {|p{0.5cm}|p{4cm}|p{2cm}|p{2cm}|p{3cm}|p{0.6cm}|}
 \chapter{Presentation of Results}
 \section{Introduction}
 The sections and subsections in this chapter describe the implementation, testing and results of the project. It starts by discussing how the web application to handle students' results was built. It then describes how The decentralised file storage element of the system was put up and how all these elements were integrated together.
@@ -40,3 +41,74 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 This page can be accessed by a logged in student or an administrative assistant. The student can only view his/her results whereas the administrative assistant can view the results of various students.
 \textbf{Manipulating results}\\~\\
 In addtion to viewing results of various students, the adminsstrative assistant can also add/edit students’ results.
+
+\section{Tests}
+\subsection{Introduction}
+The purpose of this section is to present the test cases used to test and validate the functionality of the Students' Results system's features.
+\subsection{Scope}
+To validate all the known functions of the Students' Results handler.
+\subsection{Requirements}
+The requirements for the tests are listed below, as they were derived and given in Chapter 4 of this report.\\\\
+\textbf{User Requirements}
+\begin{enumerate}
+\item[U.1] Allow an administrative assistant enter students’ results.
+\item[U.2] Allow students to access their results without being able to change them.
+\item[U.3] Provide for students to easily share their results information with employers.
+\item[U.4] Allow employers to easily verify students' results.
+\end{enumerate}
+\textbf{Functional Requirements}
+\begin{enumerate}
+\item[F.1] Ensure user authentication through login.
+\item[F.2] Reject addition of inaccurate results.
+\item[F.3] Ensure that the students’ results are not altered.
+\item[F.4] Ensure students' transcript can be saved locally.
+\item[F.5] Uploading transcript to IPFS.
+\item[F.6] Saving IPFS hash to the blockchain.
+\end{enumerate}
+\textbf{Non-Functional Requirements}
+\begin{enumerate}
+\item[N.1] The system must verify any addition to the blockchain.
+\item[N.2] The system must notify the system administrator incase of any unauthorized / failed transactions.
+\end{enumerate}
+
+\subsection{Test Cases}
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}{|p{0.5cm}|p{4cm}|p{2cm}|p{2cm}|p{3cm}|p{0.6cm}|}
+\hline
+\rowcolor[HTML]{010066} 
+{\color[HTML]{FFFFFF} {\ul \textbf{Test ID}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Test Case}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Pre-conditions}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Steps}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Expected Output}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Result}}} \\ \hline
+\endfirsthead
+%
+\multicolumn{6}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\hline
+\rowcolor[HTML]{010066} 
+{\color[HTML]{FFFFFF} {\ul \textbf{Test ID}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Test Case Description}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Pre-conditions}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Test Procedure}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Expected Output}}} & {\color[HTML]{FFFFFF} {\ul \textbf{Result}}} \\ \hline
+\endhead
+%
+\rowcolor[HTML]{9AFF99} 
+\multicolumn{6}{|l|}{\cellcolor[HTML]{9AFF99}USER REQUIREMENTS} \\ \hline
+U.1 & Allow Admininistrator assistant to enter student's results & Administrator must be logged in, Student Must be registered in system & Select Course, Select Year, Enter Student Name, Enter results & Results added to the databaseNotification for successfully entering results & Pass \\ \hline
+U.2 & Allow students to access their results without being able to change them. & Student must be registered. Student must be logged in & Enters Student ID, View Results & Results displayed if student ID entered is valid,  Display an alert if Student ID is invalid & Pass \\ \hline
+U.3 & Provide for students to easily share their transcripts with employers. & Student transcript is uploaded to IPFS & Create a URL for the transcript & Access the Transcript via Internet & Pass \\ \hline
+\rowcolor[HTML]{9AFF99} 
+\multicolumn{6}{|l|}{\cellcolor[HTML]{9AFF99}FUNCTIONAL REQUIREMENTS} \\ \hline
+F.1 & Ensure user authentication through login, Case 1 - correct name and password, Case 2 - correct name and incorrect password, Case 3 - incorrect name and correct password, Case 4 - both name and password incorrect & User must be registered & Launch the app, Enter name, Enter password, Click Submit & Case 1 - User proceeds to dashboard, Cases 2, 3, 4 - Alert user and prevent log in & Pass \\ \hline
+F.2 & Reject addition of inaccurate results, Case - Add mark \textgreater 100\% & User must be administrator & Log in, Select Student, Select Add Result & Alert user of incorrect mark entered & Pass \\ \hline
+F.3 & Ensure that the students’ results are not altered, Case - Attempt to alter results & User must be Student & Log in, Try accessing database & Database should not be accessible to student & Pass \\ \hline
+F.4 & Ensure students' transcript can be saved locally, Case - Downloading PDF format of transcript & User must  be logged in & Log In. Click Download button & Should download a PDF document & Pass \\ \hline
+F.5 & Uploading transcript to IPFS. & User must be administrator, Transcript must be in PDF format & Save result as PDF, Ensure internet connection, Click Upload to IPFS & Create IPFS hash for the PDF and display transcript's URL & Pass \\ \hline
+F.6 & Saving IPFS hash to the blockchain. & User must be administrator, User must be having an ethereum account and etherem wallet, Browser must be having MetaMask & Launch app, Accept MetaMask connection request, Click to Save hash to block chain, Accept MetaMask transaction request & Hash upload to Ethereum, Ethereum gas deduction - Wallet updated & Fail \\ \hline
+\rowcolor[HTML]{9AFF99} 
+\multicolumn{6}{|l|}{\cellcolor[HTML]{9AFF99}NON FUNCTIONAL REQUIREMENTS} \\ \hline
+N.1 & The system must verify any addition to the blockchain. & User clicks upload to blockchain &  & Notify user using metamask transaction notification & Pass \\ \hline
+N.2 & The system must notify the system administrator incase of any unauthorized / failed transactions. & Low Account Balance of ethereum wallet & User clicks upload to blockchain & Motify user through MetaMask notification & Pass \\ \hline
+\caption{Table showing test cases for the system}
+\label{Table 1}\\
+\end{longtable}

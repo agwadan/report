@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.8)  30 MAY 2019 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.8)  31 MAY 2019 18:10
 entering extended mode
 **"./Final Report.tex"
 ("Final Report.tex"
@@ -76,36 +76,109 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen105
 \TabPrevPos=\dimen106
+)
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ulem\ulem.
+sty"
+\UL@box=\box28
+\UL@hyphenbox=\box29
+\UL@skip=\skip43
+\UL@hook=\toks17
+\UL@height=\dimen107
+\UL@pe=\count90
+\UL@pixel=\dimen108
+\ULC@box=\box30
+Package: ulem 2012/05/18
+\ULdepth=\dimen109
+)
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\l
+scape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\long
+table.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip44
+\LTright=\skip45
+\LTpre=\skip46
+\LTpost=\skip47
+\LTchunksize=\count91
+\LTcapwidth=\dimen110
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count92
+\LT@rows=\count93
+\c@LT@tables=\count94
+\c@LT@chunks=\count95
+\LT@p@ftn=\toks18
+)
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xco
+lor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
+fg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\c
+olortbl.sty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\arra
+y.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen111
+\extrarowheight=\dimen112
+\NC@list=\toks19
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
+\everycr=\toks20
+\minrowclearance=\skip50
+)
+\rownum=\count96
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) ("Final Report.aux")
 \openout1 = `"Final Report.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
-\scratchdimen=\dimen107
-\scratchbox=\box28
-\nofMPsegments=\count91
-\nofMParguments=\count92
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count93
-\MPscratchDim=\dimen108
-\MPnumerator=\count94
-\makeMPintoPDFobject=\count95
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count97
+\scratchdimen=\dimen113
+\scratchbox=\box35
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen114
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks22
 )
 ("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
 \pdftexcmds.sty"
@@ -177,7 +250,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
 
 Overfull \hbox (1.05145pt too wide) in paragraph at lines 8--8
-[]\OT1/cmr/m/n/10 No.| 
+[]|\OT1/cmr/m/n/10 No.| 
  []
 
 
@@ -186,7 +259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--22
  []
 
 
-Overfull \hbox (44.43304pt too wide) in paragraph at lines 2--22
+Overfull \hbox (46.43301pt too wide) in paragraph at lines 2--22
 [] 
  []
 
@@ -616,20 +689,20 @@ Missing character: There is no ™ in font cmr10!
 <images/IPFS.png, id=93, 245.41687pt x 214.55156pt>
 File: images/IPFS.png Graphic file (type png)
  <use images/IPFS.png>
-Package pdftex.def Info: images/IPFS.png used on input line 53.
+Package pdftex.def Info: images/IPFS.png used on input line 57.
 (pdftex.def)             Requested size: 172.5pt x 150.81035pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--54
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
@@ -637,7 +710,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 File: images/OfflineBlockchainarch.png Graphic file (type png)
 
 <use images/OfflineBlockchainarch.png>
-Package pdftex.def Info: images/OfflineBlockchainarch.png used on input line 61
+Package pdftex.def Info: images/OfflineBlockchainarch.png used on input line 65
 .
 (pdftex.def)             Requested size: 338.3884pt x 197.6128pt.
  [17 <./images/IPFS.png> <./images/OfflineBlockchainarch.png>] <images/class.jp
@@ -645,10 +718,10 @@ g, id=103, 1112.155pt x 879.285pt>
 File: images/class.jpg Graphic file (type jpg)
 
 <use images/class.jpg>
-Package pdftex.def Info: images/class.jpg used on input line 81.
+Package pdftex.def Info: images/class.jpg used on input line 85.
 (pdftex.def)             Requested size: 444.85413pt x 351.70778pt.
 
-Overfull \hbox (99.85413pt too wide) in paragraph at lines 81--82
+Overfull \hbox (99.85413pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
@@ -656,15 +729,15 @@ Overfull \hbox (99.85413pt too wide) in paragraph at lines 81--82
 File: images/UseCaseDiagram.png Graphic file (type png)
 
 <use images/UseCaseDiagram.png>
-Package pdftex.def Info: images/UseCaseDiagram.png used on input line 87.
+Package pdftex.def Info: images/UseCaseDiagram.png used on input line 91.
 (pdftex.def)             Requested size: 401.49902pt x 226.34506pt.
 
-Overfull \hbox (56.49902pt too wide) in paragraph at lines 87--88
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
 [19 <./images/class.jpg>] [20 <./images/UseCaseDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
@@ -675,12 +748,12 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
 ) (parts/Implementation.tex
-Overfull \hbox (8.11176pt too wide) in paragraph at lines 138--1
+Overfull \hbox (8.11176pt too wide) in paragraph at lines 142--2
 \OT1/cmr/m/n/10 script-ing lan-gauages like PHP, JavaScript and the smart con-t
 ract for the Ethereum
  []
@@ -688,59 +761,644 @@ ract for the Ethereum
 [22]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
+Underfull \hbox (badness 10000) in paragraph at lines 13--19
 
  []
 
 
-Overfull \hbox (457.50163pt too wide) in paragraph at lines 12--18
+Overfull \hbox (457.50163pt too wide) in paragraph at lines 13--19
 \OT1/cmr/m/n/10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
+Underfull \hbox (badness 10000) in paragraph at lines 13--19
 
  []
 
 [23
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
-
- []
-
-<images/metamasklogin.png, id=129, 281.25075pt x 462.528pt>
+<images/metamasklogin.png, id=126, 281.25075pt x 462.528pt>
 File: images/metamasklogin.png Graphic file (type png)
 
 <use images/metamasklogin.png>
-Package pdftex.def Info: images/metamasklogin.png used on input line 41.
+Package pdftex.def Info: images/metamasklogin.png used on input line 35.
 (pdftex.def)             Requested size: 168.75174pt x 277.51894pt.
+
+Overfull \hbox (549.7879pt too wide) in paragraph at lines 30--38
+\OT1/cmr/m/n/10 STILL WORK IN PROGRESS HERE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ []
+
+[24]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-) (parts/conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 46--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--1
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
  []
 
-[25 <./images/metamasklogin.png>] [26]
+[25 <./images/metamasklogin.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Overfull \hbox (24.10814pt too wide) in paragraph at lines 85--85
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (15.9705pt too wide) in paragraph at lines 85--85
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (2.07184pt too wide) in paragraph at lines 85--85
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (15.4155pt too wide) in paragraph at lines 85--85
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (74.07843pt too wide) in alignment at lines 82--86
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (24.10814pt too wide) in paragraph at lines 92--92
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (15.9705pt too wide) in paragraph at lines 92--92
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (20.08162pt too wide) in paragraph at lines 92--92
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (2.07184pt too wide) in paragraph at lines 92--92
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (15.4155pt too wide) in paragraph at lines 92--92
+[]|[]|   [][]| 
+ []
+
+
+Overfull \hbox (74.07843pt too wide) in alignment at lines 86--93
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.05145pt too wide) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/10 U.1| 
+ []
+
+
+Overfull \hbox (5.1502pt too wide) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/10 Administrator
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 must be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 logged in,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 Stu-dent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 Must be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/10 Select
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 Course,
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 Se-lect Year,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 En-ter Stu-
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 dent Name,
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/10 Results added to
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 97--97
+\OT1/cmr/m/n/10 fully en-ter-ing re-
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Overfull \hbox (1.05145pt too wide) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/10 U.2| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/10 Student
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 must be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 reg-is-tered.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 Stu-dent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 must be
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/10 Enters Stu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/10 dent ID,
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Overfull \hbox (1.05145pt too wide) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/10 U.3| 
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/10 Provide for stu-dents to
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 99--99
+\OT1/cmr/m/n/10 eas-ily share their tran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/10 Student
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 99--99
+\OT1/cmr/m/n/10 tran-script is
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 99--99
+\OT1/cmr/m/n/10 up-loaded to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/10 Create a
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/10 Access the Tran-
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 102--102
+[]|\OT1/cmr/m/n/10 Ensure user au-then-ti-ca-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 102--102
+\OT1/cmr/m/n/10 word, Case 2 - cor-rect
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 102--102
+\OT1/cmr/m/n/10 name and cor-rect pass-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]|\OT1/cmr/m/n/10 Launch the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+\OT1/cmr/m/n/10 app, En-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+\OT1/cmr/m/n/10 pass-word,
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 102--102
+\OT1/cmr/m/n/10 Cases 2, 3, 4 -
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 102--102
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 103.
+
+
+("C:\Users\TheManHimself\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcm
+r.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 103.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\OT1/cmr/m/n/10 User must
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 103--103
+\OT1/cmr/m/n/10 be ad-min-is-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 103--103
+[]|\OT1/cmr/m/n/10 Log in, Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+\OT1/cmr/m/n/10 Se-lect Add
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 103--103
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 2547) in paragraph at lines 104--104
+\OT1/cmr/m/n/10 re-sults are not al-tered,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+\OT1/cmr/m/n/10 ac-cess-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|\OT1/cmr/m/n/10 Database should
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 104--104
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|\OT1/cmr/m/n/10 Ensure stu-dents' tran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\OT1/cmr/m/n/10 Down-load
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 105--105
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10 Uploading tran-script to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10 User must
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/cmr/m/n/10 be ad-min-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/cmr/m/n/10 is-tra-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/cmr/m/n/10 Tran-script
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 106--106
+\OT1/cmr/m/n/10 must be in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10 Save re-sult
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/cmr/m/n/10 con-nec-tion,
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10 Create IPFS hash
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 106--106
+\OT1/cmr/m/n/10 for the PDF and
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/10 User must
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 be ad-min-is-
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 tra-tor, User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 must be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 hav-ing an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 ethereum
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 ac-count and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 must be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 hav-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/10 Launch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 Meta-Mask
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 con-nec-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 re-quest,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 Click to
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 block chain,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 Ac-cept
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 Meta-Mask
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 trans-ac-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/10 Hash up-load
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 to Ethereum,
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 Ethereum gas de-
+ []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 107--107
+\OT1/cmr/m/n/10 duc-tion - Wal-let
+ []
+
+
+Overfull \hbox (1.05145pt too wide) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/10 N.1| 
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/10 The sys-tem must ver-
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 110--110
+\OT1/cmr/m/n/10 ify any ad-di-tion to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/10 User clicks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\OT1/cmr/m/n/10 up-load to
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/10 Notify user us-ing
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Overfull \hbox (1.05145pt too wide) in paragraph at lines 111--111
+[]|\OT1/cmr/m/n/10 N.2| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\OT1/cmr/m/n/10 Bal-ance of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\OT1/cmr/m/n/10 ethereum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|\OT1/cmr/m/n/10 User clicks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\OT1/cmr/m/n/10 up-load to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|\OT1/cmr/m/n/10 Motify user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\OT1/cmr/m/n/10 through Meta-
+ []
+
+
+Overfull \hbox (2.34486pt too wide) in paragraph at lines 111--111
+[]|\OT1/cmr/m/n/10 Pass| 
+ []
+
+
+Overfull \hbox (74.07843pt too wide) in alignment at lines 93--114
+ [] [] [] [] [] [] 
+ []
+
+[26] [27]) (parts/conclusion.tex [28]
 Chapter 6.
-) (parts/appendices.tex [27
+) (parts/appendices.tex [29
 
 ]
 Chapter 7.
-) (parts/references.tex [28
+) (parts/references.tex [30
 
 ]
 Underfull \hbox (badness 5475) in paragraph at lines 12--14
@@ -781,7 +1439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 ould-be-
  []
 
-[29
+[31
 
 ]
 Missing character: There is no â in font cmti10!
@@ -798,31 +1456,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--70
 \OT1/cmr/m/n/10 Available: https://www.helpguide.org/articles/relationships-
  []
 
-) [30] ("Final Report.aux")
+) [32] ("Final Report.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1709 strings out of 493323
- 25698 string characters out of 3126544
- 85972 words of memory out of 3000000
- 5194 multiletter control sequences out of 15000+200000
- 7075 words of font info for 25 fonts, out of 3000000 for 9000
+ 2475 strings out of 493323
+ 35076 string characters out of 3126544
+ 134299 words of memory out of 3000000
+ 5932 multiletter control sequences out of 15000+200000
+ 7181 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,25p,834b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,9n,35p,834b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/TheManHimself/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Th
 eManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TheManHimself/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Final Report.pdf" (40 pages, 1230737 bytes).
+mi10.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/TheManHimself/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/TheManHimself/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/TheManHimself/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti10.pfb>
+Output written on "Final Report.pdf" (42 pages, 1245680 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

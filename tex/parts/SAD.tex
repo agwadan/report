@@ -32,15 +32,19 @@ The system uses IPFS and the Ethereum blockchain as its main foundation. MetaMas
 
 \subsubsection{Functional Requirements}
 \begin{enumerate}
-\item[F.1] Provide verification of a user.
-\item[F.2] Ensure that the students’ results are not altered.
+\item[F.1] Ensure user authentication through login.
+\item[F.2] Reject addition of inaccurate results.
+\item[F.3] Ensure that the students’ results are not altered.
+\item[F.4] Ensure students' transcript can be saved locally.
+\item[F.5] Uploading transcript to IPFS.
+\item[F.6] Saving IPFS hash to the blockchain.
 \end{enumerate}
 
 \subsubsection{Non Functional Requirements}
-\begin{itemize}
+\begin{enumerate}
 \item[N.1] The system must verify any addition to the blockchain.
-\item[N.2] The system must notify the system administrator incase of any unauthorized transactions.
-\end{itemize}
+\item[N.2] The system must notify the system administrator incase of any unauthorized / filed transactions.
+\end{enumerate}
 
 \section{System Design}
 The system is dependant on two technologies i.e IPFS and Ethereum. This section includes an overview of how each of these technologies work.
