@@ -1,17 +1,17 @@
 % {|p{0.5cm}|p{4cm}|p{2cm}|p{2cm}|p{3cm}|p{0.6cm}|}
 \chapter{Presentation of Results}
 \section{Introduction}
-The sections and subsections in this chapter describe the implementation, testing and results of the project. It starts by discussing how the web application to handle students' results was built. It then describes how The decentralised file storage element of the system was put up and how all these elements were integrated together.
+The sections and subsections in this chapter describe the implementation, testing and results of the project. It starts by discussing how the web application to handle students' results was built. It then describes how The decentralized file storage element of the system was put up and how all these elements were integrated together.
 
 \section{System Implementation}
-This section and the subsections beneath it describe the Implementation and results of the project. Different elements of the system were built using different tools. The subsections below further describe how each element was built to get the complete system running from the web application that handles the students' results to the decentralised storage of transcripts and blockchain store for the hash values.
+This section and the subsections beneath it describe the Implementation and results of the project. Different elements of the system were built using different tools. The subsections below further describe how each element was built to get the complete system running from the web application that handles the students' results to the decentralized storage of transcripts and block chain store for the hash values.
 
 \subsection{Results System}
-The results system is an element of the system where results are initially entered and processed before they are finally stored on a decentralised network. This system is built to be accessed by students, administrative assistants, the academic registrar and the system administrator. All these have different levels of priviledges when accessing the system for example, a student is only able to view his results and not edit them. \\~\\
-The first attempt to build this system was done entirely on a blockchain network using smart contracts. A smart contract in simple terms can be defined as computer code running on top of a blockchain that controls transfer of digital currencies or assets between parties under certain conditions\cite{20}. This approach was not feasible and economically sound because alot of writes would have to be done to the blockchain and this costs ether. Ether is fuel used on the ethereum blockchain network. The latter attempt involved building a web based centralised application that handles the results which are later stored in a decentralised manner. Building this application was broken down into the following parts.
+The results system is an element of the system where results are initially entered and processed before they are finally stored on a decentralized network. This system is built to be accessed by students, administrative assistants, the academic registrar and the system administrator. All these have different levels of privileges when accessing the system for example, a student is only able to view his results and not edit them. \\~\\
+The first attempt to build this system was done entirely on a block chain network using smart contracts. A smart contract in simple terms can be defined as computer code running on top of a block chain that controls transfer of digital currencies or assets between parties under certain conditions\cite{20}. This approach was not feasible and economically sound because a lot of writes would have to be done to the block chain and this costs ether. Ether is fuel used on the Ethereum block chain network. The latter attempt involved building a web based centralized application that handles the results which are later stored in a decentralized manner. Building this application was broken down into the following parts.
 
 \subsubsection{Front End}
-The front end of the application runs on a web browser like google chrome or mozilla firefox. These web browsers have a uniform support for various programming languages that are used together to build the web pages we know today. Described below are the programming languages used to build the front end of the results system.\\\\
+The front end of the application runs on a web browser like Google Chrome or Mozilla Firefox. These web browsers have a uniform support for various programming languages that are used together to build the web pages we know today. Described below are the programming languages used to build the front end of the results system.\\\\
 \textbf{HTML(Hyper Text Mark-up Language):} HTML is the standard markup language for creating web pages applications. Using HTML elements as the building blocks these pages, we were able to insert images, interactive forms among other items on the HTML pages.\\\\
 \begin{figure}[H]
 \includegraphics[scale=0.4]{images/form_snippet.png}
@@ -50,31 +50,25 @@ Apache is an open-source free web server software powering around 46\% of web se
 \subsection{IPFS integration}
 IPFS is a protocol that establishes the peer-to-peer network with resources addressed based on their content instead of the physical location. Our system uses this protocol with aim of guaranteeing users a decentralized and unalterable storage at a fraction of the price they  would have to give in transaction fees.\\
 The PDF file generated by the Results system implementation above is the input of this next phase of implementation.\\
-We implement this protocol in such a way that the network is not going to store files once you add them. Adding files to IPFS does not upload them anywhere and only means that you add them to the local repository you host on your node. Therefore, what our system does is we create a hashed representation of the file and share this as a reference to the file.\\\\
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-\\\\
-However, during the implementation of this project, we realized that connecting to the Ethereum blockchain is messy and complicated. We faced challenges which include:
+We implement this protocol in such a way that the network is not going to store files once you add them. Adding files to IPFS does not upload them anywhere and only means that you add them to the local repository you host on your node. Therefore, what our system does is we create a hashed representation of the file and share this as a reference to the file. An illustration of this can be seen in Appendix B - figures 7.6 and 7.7.\\\\
+However, during the implementation of this project, we realized that connecting to the Ethereum block chain is messy and complicated. We faced challenges which include:
 \begin{enumerate}
-\item The expense of storing data on the Ethereum blockchain
+\item The expense of storing data on the Ethereum block chain
 \item Complexity in configuring the Ethereum geth client and
 \item Scalability of infrastructure would be tough
 \end{enumerate}
 \subsubsection{Infura}
-In attempt to overcome the challenges listed above, we used Infura. Infura is a set of tools used to create an application that connects to the Ethereum blockchain. It interacts with the Ethereum blockchain and runs nodes on behalf of our system.\\\\
+In attempt to overcome the challenges listed above, we used Infura. Infura is a set of tools used to create an application that connects to the Ethereum block chain. It interacts with the Ethereum block chain and runs nodes on behalf of our system. The connection to Infura is illustrated in Appendix B - figure 7.8.\\\\
 Using Infura's API made our system fast, scalable and provides extra data storage. However, despite the fact that Infura offers to do that work for us, it brings with it the cost of increased centralization.
-The output of this subsystem is a hashed  URL which is a reference to our PDF file.
-
-\subsection{Ethereum blockchain}
-As mentioned in the above section, using Infura and IPFS provides extra data storage for us. This is done is such a way that instead of storing the entire file on-chain, data can be stored separately i.e locally on a server from the results system in section 5.2.1, with just a hash stored on the blockchain.\\By storing the hash on the Ethereum blockchain,the system takes advantage of the blockchain principles of Immutability, Disinter mediation and Transparency.
-STILL WORK IN PROGRESS HERE
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
+The output of this subsystem is a hashed  URL which is a reference to our PDF file.\\\\
+\subsection{Ethereum block chain}
+As mentioned in the above section, using Infura and IPFS provides extra data storage for us. This is done is such a way that instead of storing the entire file on-chain, data can be stored separately i.e locally on a server from the results system in section 5.2.1, with just a hash stored on the block chain.\\By storing the hash on the Ethereum block chain,the system takes advantage of the block chain principles of Immutability, Disinter mediation and Transparency.
 
 \subsubsection{Results}
 \textbf{Viewing Results}\\~\\
 This page can be accessed by a logged in student or an administrative assistant. The student can only view his/her results whereas the administrative assistant can view the results of various students.
 \textbf{Manipulating results}\\~\\
-In addtion to viewing results of various students, the adminsstrative assistant can also add/edit students’ results.
+In addtion to viewing results of various students, the administrative assistant can also add/edit students’ results.
 
 \section{Tests}
 \subsection{Introduction}
@@ -92,17 +86,17 @@ The requirements for the tests are listed below, as they were derived and given 
 \end{enumerate}
 \textbf{Functional Requirements}
 \begin{enumerate}
-\item[F.1] Ensure user authentication through login.
+\item[F.1] Ensure user authentication through log in.
 \item[F.2] Reject addition of inaccurate results.
 \item[F.3] Ensure that the students’ results are not altered.
 \item[F.4] Ensure students' transcript can be saved locally.
 \item[F.5] Uploading transcript to IPFS.
-\item[F.6] Saving IPFS hash to the blockchain.
+\item[F.6] Saving IPFS hash to the block chain.
 \end{enumerate}
 \textbf{Non-Functional Requirements}
 \begin{enumerate}
-\item[N.1] The system must verify any addition to the blockchain.
-\item[N.2] The system must notify the system administrator incase of any unauthorized / failed transactions.
+\item[N.1] The system must verify any addition to the block chain.
+\item[N.2] The system must notify the system administrator in case of any unauthorized / failed transactions.
 \end{enumerate}
 
 \subsection{Test Cases}
@@ -128,21 +122,43 @@ The requirements for the tests are listed below, as they were derived and given 
 %
 \rowcolor[HTML]{9AFF99} 
 \multicolumn{6}{|l|}{\cellcolor[HTML]{9AFF99}USER REQUIREMENTS} \\ \hline
-U.1 & Allow Admininistrator assistant to enter student's results & Administrator must be logged in, Student Must be registered in system & Select Course, Select Year, Enter Student Name, Enter results & Results added to the databaseNotification for successfully entering results & Pass \\ \hline
+U.1 & Allow Administrator assistant to enter student's results & Administrator must be logged in, Student Must be registered in system & Select Course, Select Year, Enter Student Name, Enter results & Results added to the database Notification for successfully entering results & Pass \\ \hline
 U.2 & Allow students to access their results without being able to change them. & Student must be registered. Student must be logged in & Enters Student ID, View Results & Results displayed if student ID entered is valid,  Display an alert if Student ID is invalid & Pass \\ \hline
 U.3 & Provide for students to easily share their transcripts with employers. & Student transcript is uploaded to IPFS & Create a URL for the transcript & Access the Transcript via Internet & Pass \\ \hline
 \rowcolor[HTML]{9AFF99} 
 \multicolumn{6}{|l|}{\cellcolor[HTML]{9AFF99}FUNCTIONAL REQUIREMENTS} \\ \hline
-F.1 & Ensure user authentication through login, Case 1 - correct name and password, Case 2 - correct name and incorrect password, Case 3 - incorrect name and correct password, Case 4 - both name and password incorrect & User must be registered & Launch the app, Enter name, Enter password, Click Submit & Case 1 - User proceeds to dashboard, Cases 2, 3, 4 - Alert user and prevent log in & Pass \\ \hline
+F.1 & Ensure user authentication through log in, Case 1 - correct name and password, Case 2 - correct name and incorrect password, Case 3 - incorrect name and correct password, Case 4 - both name and password incorrect & User must be registered & Launch the app, Enter name, Enter password, Click Submit & Case 1 - User proceeds to dashboard, Cases 2, 3, 4 - Alert user and prevent log in & Pass \\ \hline
 F.2 & Reject addition of inaccurate results, Case - Add mark \textgreater 100\% & User must be administrator & Log in, Select Student, Select Add Result & Alert user of incorrect mark entered & Pass \\ \hline
 F.3 & Ensure that the students’ results are not altered, Case - Attempt to alter results & User must be Student & Log in, Try accessing database & Database should not be accessible to student & Pass \\ \hline
 F.4 & Ensure students' transcript can be saved locally, Case - Downloading PDF format of transcript & User must  be logged in & Log In. Click Download button & Should download a PDF document & Pass \\ \hline
 F.5 & Uploading transcript to IPFS. & User must be administrator, Transcript must be in PDF format & Save result as PDF, Ensure internet connection, Click Upload to IPFS & Create IPFS hash for the PDF and display transcript's URL & Pass \\ \hline
-F.6 & Saving IPFS hash to the blockchain. & User must be administrator, User must be having an ethereum account and etherem wallet, Browser must be having MetaMask & Launch app, Accept MetaMask connection request, Click to Save hash to block chain, Accept MetaMask transaction request & Hash upload to Ethereum, Ethereum gas deduction - Wallet updated & Fail \\ \hline
+F.6 & Saving IPFS hash to the block chain. & User must be administrator, User must be having an Ethereum account and etherem wallet, Browser must be having MetaMask & Launch app, Accept MetaMask connection request, Click to Save hash to block chain, Accept MetaMask transaction request & Hash upload to Ethereum, Ethereum gas deduction - Wallet updated & Fail \\ \hline
 \rowcolor[HTML]{9AFF99} 
 \multicolumn{6}{|l|}{\cellcolor[HTML]{9AFF99}NON FUNCTIONAL REQUIREMENTS} \\ \hline
-N.1 & The system must verify any addition to the blockchain. & User clicks upload to blockchain &  & Notify user using metamask transaction notification & Pass \\ \hline
-N.2 & The system must notify the system administrator incase of any unauthorized / failed transactions. & Low Account Balance of ethereum wallet & User clicks upload to blockchain & Motify user through MetaMask notification & Pass \\ \hline
+N.1 & The system must verify any addition to the block chain. & User clicks upload to block chain &  & Notify user using metamask transaction notification & Pass \\ \hline
+N.2 & The system must notify the system administrator in case of any unauthorized / failed transactions. & Low Account Balance of Ethereum wallet & User clicks upload to block chain & notify user through MetaMask notification & Pass \\ \hline
 \caption{Table showing test cases for the system}
 \label{Table 1}\\
+\end{longtable}
+
+\subsection{Test Resuslts}
+The table below summarizes the results of the tests performed on the system to check its functionality.
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}{|l|l|l|l|l|}
+\hline
+\rowcolor[HTML]{303498} 
+{\color[HTML]{FFFFFF} \textbf{System Name:}} & \multicolumn{4}{l|}{\cellcolor[HTML]{303498}{\color[HTML]{FFFFFF} Students' Results Handler with Storage on block chain}} \\ \hline
+\endfirsthead
+%
+\endhead
+%
+\multicolumn{5}{|l|}{\textbf{Test Results:}} \\ \hline
+\multicolumn{2}{|l|}{\cellcolor[HTML]{67FD9A}Pass:} & 13 & \cellcolor[HTML]{FFCC67}Pending: & 0 \\ \hline
+\multicolumn{2}{|l|}{\cellcolor[HTML]{FE0000}Fail:} & 1 & Number of Test Cases: & 14 \\ \hline
+\caption{Summary of Test Results}
+\label{Table}\\
 \end{longtable}
