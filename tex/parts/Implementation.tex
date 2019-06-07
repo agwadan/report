@@ -64,12 +64,61 @@ The output of this subsystem is a hashed  URL which is a reference to our PDF fi
 \subsection{Ethereum block chain}
 As mentioned in the above section, using Infura and IPFS provides extra data storage for us. This is done is such a way that instead of storing the entire file on-chain, data can be stored separately i.e locally on a server from the results system in section 5.2.1, with just a hash stored on the block chain.\\By storing the hash on the Ethereum block chain,the system takes advantage of the block chain principles of Immutability, Disinter mediation and Transparency.
 
-\subsubsection{Results}
-\textbf{Viewing Results}\\~\\
-This page can be accessed by a logged in student or an administrative assistant. The student can only view his/her results whereas the administrative assistant can view the results of various students.
-\textbf{Manipulating results}\\~\\
-In addtion to viewing results of various students, the administrative assistant can also add/edit students’ results.
+\section{Results}
+This section presents sequence diagrams and screen shots from the implemented system.
+\begin{enumerate}
+\item \textbf{Admin Assistant}
+\begin{figure}[H]
+\caption{Flow of functionality for the admin user.}
+\includegraphics[width=0.8]{images/SequenceAdmin.png}
+\end{figure}
+... Small description of this, then screenshots here
+\begin{figure}[H]
+\caption{Admin Login interface.}
+\includegraphics[width=0.8]{images/admin_login.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Admission of a student.}
+\includegraphics[width=0.8]{images/add_student.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Editing a student's information.}
+\includegraphics[width=0.8]{images/manage_students.png}
+\end{figure}
 
+\begin{figure}[H]
+\caption{Entering a student's results by the admin assistant.}
+\includegraphics[width=0.8]{images/enter_results.png}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Editing a student's results.}
+\includegraphics[width=0.8]{images/manage_results.png}
+\end{figure}
+
+\item \textbf{Academic Registrar}
+\begin{figure}[H]
+\caption{Flow of functionality for the registrar user.}
+\includegraphics[width=0.8]{images/SequenceRegistrar.png}
+\end{figure}
+... Small description of this, then screenshots here
+\item \textbf{Student}
+\begin{figure}[H]
+\caption{Flow of functionality for the student user.}
+\includegraphics[width=0.8]{images/SequenceStudent.png}
+\end{figure}
+... Small description of this, then screenshots here
+
+\begin{figure}[H]
+\caption{Student login interface.}
+\includegraphics[width=0.8]{images/student_login.png}
+\end{figure}
+
+\begin{figure}[H]
+\caption{A sample of a student's progressive results.}
+\includegraphics[width=0.8]{images/results.png}
+\end{figure}
+\end{enumerate}
 \section{Tests}
 \subsection{Introduction}
 The purpose of this section is to present the test cases used to test and validate the functionality of the Students' Results system's features.
