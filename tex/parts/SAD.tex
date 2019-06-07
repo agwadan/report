@@ -4,14 +4,12 @@ This chapter describes the study, analysis and design of the system. It highligh
 \section{Overview of the system}
 The system designed in this project is aimed at having students’ transcripts stored and shared on a blockchain network. The storage of transcripts on a blockchain network ensures more security in addition to their storage as hard copy documents.
 To emphasize security, the transcripts are first hashed into data of fixed size and then stored on a blockchain. The system uses IPFS (InterPlanetary File System)\cite{art16} to produce a hash code for a transcript. The resultant hash code is then stored on the Ethereum blockchain.\\
-In order to simulate the blockchain locally, this system uses Ganache\cite{17} which runs a local instance of the Ethereum blockchain on a user computer. To gain access to the network, the user needs a browser extension known as MetaMask. MetaMask is a bridge that allows users to visit the distributed web through their browsers. It allows one to run Ethereum dApps\cite{art18} right in one's browser. Addition of each transcript to the blockchain costs a certain amount of ether\cite{art19}, the currency for the Ethereum blockchain.
-\begin{figure}[h!]
+In order to simulate the blockchain locally, this system uses Ganache\cite{art17} which runs a local instance of the Ethereum blockchain on a user computer. To gain access to the network, the user needs a browser extension known as MetaMask. MetaMask is a bridge that allows users to visit the distributed web through their browsers. It allows one to run Ethereum dApps\cite{art18} right in one's browser. Addition of each transcript to the blockchain costs a certain amount of ether\cite{art19}, the currency for the Ethereum blockchain.
+\begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{images/simple_system.png}
+\includegraphics[scale=0.8]{images/simple_system.png}
 \caption{Simple system Architecture}
 \end{figure}
-
-\newpage
 \section{System Analysis}
 \subsection{Data Analysis}
 From the data retrieved during the research process, we found that the present system handling students’ records is prone to a number of errors and weaknesses.\\\\
@@ -46,6 +44,13 @@ The system uses IPFS and the Ethereum blockchain as its main foundation. MetaMas
 \item[N.2] The system must notify the system administrator incase of any unauthorized / filed transactions.
 \end{enumerate}
 
+Below is a use case diagram depicting the interactions among the system's elements.
+\subsubsection{Use Case Diagram}
+\begin{figure}[H]
+\includegraphics[scale=0.5]{images/UseCaseDiagram.png}
+\caption{Use Case diagram}
+\end{figure}
+
 \section{System Design}
 The system is dependant on two technologies i.e IPFS and Ethereum. This section includes an overview of how each of these technologies work.
 \begin{itemize}
@@ -54,7 +59,7 @@ IPFS is an open-source, peer-to-peer distributed hypermedia protocol that aims t
 \begin{figure}[H]
   \caption{IPFS decentralized architecture.}
   \centering
-  \includegraphics[width=0.5\textwidth]{images/IPFS.png}
+  \includegraphics[width=0.9\textwidth]{images/IPFS.png}
 \end{figure}
 The links between the nodes in IPFS take the form of cryptographic hashes, and this is possible because of its Merkle DAG\cite{art20} (Directed Acyclic Graphs) data architecture. Each file and all blocks within it are given a unique identifier, which is a cryptographic hash. Duplicates are removed across the network and version history is tracked for every file.\\\\
 \item\textbf{Ethereum blockchain}\\
@@ -62,7 +67,7 @@ Ethereum's architecture allows for an application to sign transactions offline a
 \begin{figure}[H]
   \caption{Ethereum blockchain architecture with offline Signing and public nodes.}
   \centering
-  \includegraphics[scale=0.5, width=0.5\textwidth]{images/OfflineBlockchainarch.png}
+  \includegraphics[width=0.9\textwidth]{images/OfflineBlockchainarch.png}
 \end{figure}
 \end{itemize}
 
@@ -78,18 +83,12 @@ The structure of the system is composed of the following major components:
 \end{enumerate}
 \item A storage server for student information and transcripts
 \end{itemize}
-Below is a class diagram describing the structure of the system and a use case diagram depicting the interactions among the system's elements.
+Below is a class diagram describing the structure of the system.
 
 \subsubsection{Class Diagram}
 \begin{figure}[H]
 \includegraphics[scale=0.4]{images/class.jpg}
 \caption{Class diagram}
-\end{figure}
-
-\subsubsection{Use Case Diagram}
-\begin{figure}[H]
-\includegraphics[scale=0.5]{images/UseCaseDiagram.png}
-\caption{Use Case diagram}
 \end{figure}
 
 \subsection{Design Constraints}
