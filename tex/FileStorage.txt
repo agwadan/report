@@ -1,0 +1,15 @@
+The pseudocode below is for a smart contract that stores a hash value in a blockchain network.
+
+CONTRACT TranscriptStorage
+
+    Declare ipfsHash
+    Declare id
+
+    FUNCTION StoreFile
+        Pass In: id
+        Pass In: ipfsHash
+
+        Assign storeDoc [id] = ipfsHash
+    END FUNCTION
+
+END CONTRACT
