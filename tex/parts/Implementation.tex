@@ -63,36 +63,66 @@ Using Infura's API made our system fast, scalable and provides extra data storag
 The output of this subsystem is a hashed  URL which is a reference to our PDF file.\\\\
 \subsection{Ethereum block chain}
 As mentioned in the above section, using Infura and IPFS provides extra data storage for us. This is done is such a way that instead of storing the entire file on-chain, data can be stored separately i.e locally on a server from the results system in section 5.2.1, with just a hash stored on the block chain.\\By storing the hash on the Ethereum block chain,the system takes advantage of the block chain principles of Immutability, Disinter mediation and Transparency.
-
-\subsection{Results}
+\newpage
+\section{Results}
 This section presents sequence diagrams and screen shots from the implemented system.
 \begin{enumerate}
 \item \textbf{Admin Assistant}
+The Administrative assistant is responsible for enrolling a student and managing their records.
 \begin{figure}[H]
 \caption{Flow of functionality for the admin user.}
-\includegraphics[scale=0.5]{images/SequenceAdmin.png}
+\includegraphics[scale=0.4]{images/SequenceAdmin.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Admin Login interface.}
+\includegraphics[scale=0.5]{images/admin_login.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Admission of a student.}
+\includegraphics[scale=0.4]{images/add_student.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Editing a student's information.}
+\includegraphics[scale=0.4]{images/manage_students.png}
 \end{figure}
 
+\begin{figure}[H]
+\caption{Entering a student's results by the admin assistant.}
+\includegraphics[scale=0.4]{images/enter_results.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Editing a student's results.}
+\includegraphics[scale=0.4]{images/manage_results.png}
+\end{figure}
 \item \textbf{Academic Registrar}
+The Academic registrar verifies that the results results on the transcript are authentic and uploads the results to the distributed network for storage.
 \begin{figure}[H]
 \caption{Flow of functionality for the registrar user.}
-\includegraphics[scale=0.5]{images/SequenceRegistrar.png}
+\includegraphics[scale=0.4]{images/SequenceRegistrar.png}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[scale=0.4]{images/UploadToIPFS.png}
 \caption{URL is generated using a hash of the Transcript and it is uploaded to the public node}
 \end{figure}
-
 \begin{figure}[H]
 \includegraphics[scale=0.4]{images/RevealIPFS.png}
 \caption{Using the generated URL, the transcript can be accessed from the internet}
 \end{figure}
+\newpage
 \item \textbf{Student}
+The student once logged in is able to view their results both on the Results System and the distributed network once verified.
 \begin{figure}[H]
 \caption{Flow of functionality for the student user.}
-\includegraphics[scale=0.5]{images/SequenceStudent.png}
+\includegraphics[scale=0.4]{images/SequenceStudent.png}
 \end{figure}
-... Small description of this, then screenshots here
+\begin{figure}[H]
+\caption{Student login interface.}
+\includegraphics[scale=0.4]{images/student_login.png}
+\end{figure}
+\begin{figure}[H]
+\caption{A sample of a student's progressive results.}
+\includegraphics[scale=0.4]{images/results.png}
+\end{figure}
 \end{enumerate}
 \section{Tests}
 \subsection{Introduction}
