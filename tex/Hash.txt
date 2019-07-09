@@ -1,0 +1,12 @@
+The pseudocode below is for a program that takes a Transcript and generates a hash value for it.
+
+Call: CONTRACT TranscriptStorage
+
+Fetch file
+form_Entry()
+    Get the file Transcript.pdf
+
+    IF submitted 
+        
+    END IF
+

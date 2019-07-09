@@ -1,0 +1,21 @@
+The pseudocode below is for a smart contract that Verifies a Transcript
+
+CONTRACT Verify
+    Declare: HashToVerify
+
+    Fetch: storeDoc[id] from the blockchain
+
+    FUNCTION Verify Transcript
+        Pass In: id
+        Pass In: HashToVerify
+
+        IF storeDoc[id] == HashToVerify
+            print "Transcript is Authentic"
+        
+        ELSE
+            print "Verification Failed"
+        END IF
+
+    END FUNCTION
+    
+END CONTRACT
