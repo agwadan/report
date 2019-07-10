@@ -90,6 +90,30 @@ Below is a class diagram describing the structure of the system.
 \includegraphics[scale=0.4]{images/class.jpg}
 \caption{Class diagram}
 \end{figure}
+\newpage
+\subsubsection{Formulation of Algorithm}
+The figures below show the formulations of the algorithms used by the system to store and verify transcripts.
+\begin{figure}[H]
+\caption{Generating a hash value for a transcript}
+\includegraphics[scale=0.7]{images/Pseudo_hash.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Storing the hash value generated for a transcript}
+\includegraphics[scale=0.7]{images/pseudo_store.png}
+\end{figure}
+\begin{figure}[H]
+\caption{Verifying a transcript by checking its hash with respect to the applicant's unique ID  }
+\includegraphics[scale=0.7]{images/pseudo_verify.png}
+\end{figure}
+\begin{figure}[H]
+\caption{System flow for the storage process}
+\includegraphics[scale=0.6]{images/flowchart_storage.png}
+\end{figure}
+\begin{figure}[H]
+\caption{System flow for the verification process}
+\includegraphics[scale=0.4]{images/flowchart_verify.png}
+\end{figure}
+
 
 \subsection{Design Constraints}
 The system for storing students' results on the blockchain is dependent on a number of factors, and these constrain its design in one way or another. Here below are some example constraints: 
